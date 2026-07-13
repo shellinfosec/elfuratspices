@@ -23,8 +23,13 @@ export const Route = createFileRoute("/product/$slug")({
         { name: "description", content: p.description },
         { property: "og:title", content: `${p.name} - Elfurat Spices` },
         { property: "og:description", content: p.description },
-        { property: "og:image", content: p.image },
+        { property: "og:image", content: `https://elfuratspices.com${p.image}` },
+        { property: "og:image:width", content: "800" },
+        { property: "og:image:height", content: "1000" },
+        { property: "og:url", content: `https://elfuratspices.com/product/${p.slug}` },
         { property: "og:type", content: "product" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:image", content: `https://elfuratspices.com${p.image}` },
       ],
       scripts: [
         {

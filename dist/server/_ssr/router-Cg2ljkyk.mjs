@@ -1,5 +1,5 @@
 import { o as __toESM } from "../_runtime.mjs";
-import { a as LOGOS, i as HERO_IMAGES, o as waUrl, r as CERTS, t as BRAND } from "./brand-DOimiTyY.mjs";
+import { a as LOGOS, o as waUrl, r as CERTS, t as BRAND } from "./brand-DOimiTyY.mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
 import { t as Image } from "./image-B6cf7Hyo.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
@@ -7,13 +7,13 @@ import { a as AnimatePresence, i as motion, n as useTransform, r as useScroll, t
 import { C as ChevronDown, D as ArrowUp, h as Mail, l as Phone, m as MapPin, p as Menu, t as X } from "../_libs/lucide-react.mjs";
 import { n as PRODUCTS, t as CATEGORIES } from "./products-BSJ78AEw.mjs";
 import { _ as useRouter, c as HeadContent, d as createRouter, f as Outlet, g as Link, h as createRootRouteWithContext, l as useRouterState, m as createFileRoute, p as lazyRouteComponent, s as Scripts } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route$7 } from "./product._slug-CBfpylzX.mjs";
-import { t as Route$8 } from "./products._category-CtI4rTbn.mjs";
+import { t as Route$7 } from "./product._slug-5YvOJ2JP.mjs";
+import { t as Route$8 } from "./products._category-UAlBaZg5.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as require_aos } from "../_libs/aos.mjs";
 import { t as Lenis } from "../_libs/lenis.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CrpLAg27.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-Cg2ljkyk.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
@@ -801,11 +801,19 @@ var Route$6 = createRootRouteWithContext()({
 			},
 			{
 				property: "og:image",
-				content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/7a330b53-5aac-4538-8968-df746bc4d792"
+				content: "https://elfuratspices.com/assets/Multicolor%203x1%20Logo.webp"
+			},
+			{
+				property: "og:image:width",
+				content: "1200"
+			},
+			{
+				property: "og:image:height",
+				content: "400"
 			},
 			{
 				name: "twitter:image",
-				content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/7a330b53-5aac-4538-8968-df746bc4d792"
+				content: "https://elfuratspices.com/assets/Multicolor%203x1%20Logo.webp"
 			}
 		],
 		links: [
@@ -941,7 +949,27 @@ var Route$4 = createFileRoute("/export-inquiries")({
 		},
 		{
 			property: "og:image",
-			content: HERO_IMAGES.export
+			content: "https://elfuratspices.com/assets/04D.webp"
+		},
+		{
+			property: "og:image:width",
+			content: "1920"
+		},
+		{
+			property: "og:image:height",
+			content: "1080"
+		},
+		{
+			property: "og:url",
+			content: "https://elfuratspices.com/export-inquiries"
+		},
+		{
+			name: "twitter:card",
+			content: "summary_large_image"
+		},
+		{
+			name: "twitter:image",
+			content: "https://elfuratspices.com/assets/04D.webp"
 		}
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
@@ -964,7 +992,27 @@ var Route$3 = createFileRoute("/contact")({
 		},
 		{
 			property: "og:image",
-			content: HERO_IMAGES.facility1
+			content: "https://elfuratspices.com/assets/16A.webp"
+		},
+		{
+			property: "og:image:width",
+			content: "1920"
+		},
+		{
+			property: "og:image:height",
+			content: "1080"
+		},
+		{
+			property: "og:url",
+			content: "https://elfuratspices.com/contact"
+		},
+		{
+			name: "twitter:card",
+			content: "summary_large_image"
+		},
+		{
+			name: "twitter:image",
+			content: "https://elfuratspices.com/assets/16A.webp"
 		}
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
@@ -987,7 +1035,27 @@ var Route$2 = createFileRoute("/about")({
 		},
 		{
 			property: "og:image",
-			content: HERO_IMAGES.facility1
+			content: "https://elfuratspices.com/assets/18A.webp"
+		},
+		{
+			property: "og:image:width",
+			content: "1920"
+		},
+		{
+			property: "og:image:height",
+			content: "1080"
+		},
+		{
+			property: "og:url",
+			content: "https://elfuratspices.com/about"
+		},
+		{
+			name: "twitter:card",
+			content: "summary_large_image"
+		},
+		{
+			name: "twitter:image",
+			content: "https://elfuratspices.com/assets/18A.webp"
 		}
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
@@ -1018,7 +1086,23 @@ var Route = createFileRoute("/products/")({
 		},
 		{
 			property: "og:image",
-			content: HERO_IMAGES.wholeSpicesA
+			content: "https://elfuratspices.com/assets/05A.webp"
+		},
+		{
+			property: "og:image:width",
+			content: "1920"
+		},
+		{
+			property: "og:image:height",
+			content: "1080"
+		},
+		{
+			name: "twitter:card",
+			content: "summary_large_image"
+		},
+		{
+			name: "twitter:image",
+			content: "https://elfuratspices.com/assets/05A.webp"
 		}
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter, "component")

@@ -8,9 +8,9 @@ import { i as motion } from "../_libs/framer-motion.mjs";
 import { A as ArrowLeft, T as BadgeCheck, _ as FlaskConical, a as Ship, l as Phone, o as ShieldCheck, r as Sprout, u as Package, y as CircleCheck } from "../_libs/lucide-react.mjs";
 import { a as productsByCategory } from "./products-BSJ78AEw.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route } from "./product._slug-CBfpylzX.mjs";
+import { t as Route } from "./product._slug-5YvOJ2JP.mjs";
 import { t as ProductCard } from "./ProductCard-D5f07Igs.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-C2UbzrTR.js
+//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-DnHHoMt2.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ZoomImage({ src, alt, zoom = 2.2, className = "" }) {

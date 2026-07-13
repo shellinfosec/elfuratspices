@@ -1,4 +1,4 @@
-﻿import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
   createRootRouteWithContext,
@@ -135,8 +135,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Elfurat Spices - Premium Indian Spices, Globally Exported" },
       { name: "twitter:description", content: "From single-origin farms in India to importers worldwide - Elfurat Spices delivers premium whole spices, powders, masala blends, aromatics, and nuts at export scale." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/7a330b53-5aac-4538-8968-df746bc4d792" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/7a330b53-5aac-4538-8968-df746bc4d792" },
+      { property: "og:image", content: "https://elfuratspices.com/assets/Multicolor%203x1%20Logo.webp" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "400" },
+      { name: "twitter:image", content: "https://elfuratspices.com/assets/Multicolor%203x1%20Logo.webp" },
     ],
     links: [
       { rel: "icon", href: "/assets/Multicolor%20Icon.webp" },

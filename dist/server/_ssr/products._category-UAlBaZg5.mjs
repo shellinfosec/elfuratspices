@@ -1,7 +1,7 @@
 import { r as getCategory } from "./products-BSJ78AEw.mjs";
 import { j as notFound, m as createFileRoute, p as lazyRouteComponent } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/products._category-CtI4rTbn.js
-var $$splitComponentImporter = () => import("./products._category-vo0SS6YZ.mjs");
+//#region node_modules/.nitro/vite/services/ssr/assets/products._category-UAlBaZg5.js
+var $$splitComponentImporter = () => import("./products._category-Dn8SoZ_Q.mjs");
 var $$splitNotFoundComponentImporter = () => import("./products._category-BUWSi27T.mjs");
 var Route = createFileRoute("/products/$category")({
 	loader: ({ params }) => {
@@ -31,7 +31,23 @@ var Route = createFileRoute("/products/$category")({
 			},
 			{
 				property: "og:image",
-				content: c.hero
+				content: `https://elfuratspices.com${c.hero}`
+			},
+			{
+				property: "og:image:width",
+				content: "1920"
+			},
+			{
+				property: "og:image:height",
+				content: "1080"
+			},
+			{
+				name: "twitter:card",
+				content: "summary_large_image"
+			},
+			{
+				name: "twitter:image",
+				content: `https://elfuratspices.com${c.hero}`
 			}
 		] };
 	},

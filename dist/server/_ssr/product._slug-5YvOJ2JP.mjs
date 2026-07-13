@@ -1,7 +1,7 @@
 import { i as getProduct, r as getCategory } from "./products-BSJ78AEw.mjs";
 import { j as notFound, m as createFileRoute, p as lazyRouteComponent } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-CBfpylzX.js
-var $$splitComponentImporter = () => import("./product._slug-C2UbzrTR.mjs");
+//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-5YvOJ2JP.js
+var $$splitComponentImporter = () => import("./product._slug-DnHHoMt2.mjs");
 var $$splitNotFoundComponentImporter = () => import("./product._slug-CeX7SBi0.mjs");
 var Route = createFileRoute("/product/$slug")({
 	loader: ({ params }) => {
@@ -35,11 +35,31 @@ var Route = createFileRoute("/product/$slug")({
 				},
 				{
 					property: "og:image",
-					content: p.image
+					content: `https://elfuratspices.com${p.image}`
+				},
+				{
+					property: "og:image:width",
+					content: "800"
+				},
+				{
+					property: "og:image:height",
+					content: "1000"
+				},
+				{
+					property: "og:url",
+					content: `https://elfuratspices.com/product/${p.slug}`
 				},
 				{
 					property: "og:type",
 					content: "product"
+				},
+				{
+					name: "twitter:card",
+					content: "summary_large_image"
+				},
+				{
+					name: "twitter:image",
+					content: `https://elfuratspices.com${p.image}`
 				}
 			],
 			scripts: [{
