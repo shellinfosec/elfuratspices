@@ -1,0 +1,7 @@
+{
+  "resource": "https://elfuratspices.com/api",
+  "authorization_servers": [
+    "https://elfuratspices.com"
+  ],
+  "scopes_supported": ["read", "write"]
+}

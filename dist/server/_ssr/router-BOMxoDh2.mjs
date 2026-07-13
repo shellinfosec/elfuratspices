@@ -13,7 +13,7 @@ import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as require_aos } from "../_libs/aos.mjs";
 import { t as Lenis } from "../_libs/lenis.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-BltE4dFf.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BOMxoDh2.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
@@ -891,6 +891,20 @@ function RootShell({ children }) {
 }
 function RootComponent() {
 	const { queryClient } = Route$6.useRouteContext();
+	(0, import_react.useEffect)(() => {
+		if (typeof navigator !== "undefined" && "modelContext" in navigator) navigator.modelContext?.provideContext({ tools: [{
+			name: "search_spices",
+			description: "Search for spices in the catalog",
+			inputSchema: {
+				type: "object",
+				properties: { query: { type: "string" } },
+				required: ["query"]
+			},
+			execute: async (args) => {
+				return `Results for ${args.query}: Visit https://elfuratspices.com/products?q=${encodeURIComponent(args.query)}`;
+			}
+		}] });
+	}, []);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(QueryClientProvider, {
 		client: queryClient,
 		children: [

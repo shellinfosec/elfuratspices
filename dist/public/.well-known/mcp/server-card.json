@@ -1,0 +1,15 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/server-card.json",
+  "serverInfo": {
+    "name": "elfurat-spices-mcp",
+    "version": "1.0.0"
+  },
+  "transport": {
+    "type": "sse",
+    "endpoint": "https://elfuratspices.com/mcp/sse"
+  },
+  "capabilities": {
+    "tools": true,
+    "resources": true
+  }
+}

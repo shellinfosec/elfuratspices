@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-O312kRbs.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-CeHMSA3-.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "D:/dev/Elfurat Spices/lovable/src/routes/__root.tsx",
@@ -14,7 +14,7 @@ var tsrStartManifest = () => ({ routes: {
 		],
 		css: ["/assets/index-PTugdkvS.css"],
 		preloads: [
-			"/assets/index-CWCgO4YD.js",
+			"/assets/index-D5BPseub.js",
 			"/assets/jsx-runtime-D8nDyRPw.js",
 			"/assets/react-dom-CrK8yE57.js",
 			"/assets/link-BIDXvZM8.js",
@@ -23,30 +23,30 @@ var tsrStartManifest = () => ({ routes: {
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-CWCgO4YD.js"
+			src: "/assets/index-D5BPseub.js"
 		} }]
 	},
 	"/": {
 		filePath: "D:/dev/Elfurat Spices/lovable/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-DtJfZ9Ir.js",
-			"/assets/ProductCard-Csnk1U1X.js",
-			"/assets/select-Cata8prb.js",
+			"/assets/routes-qJcamGMT.js",
+			"/assets/ProductCard-BrHtcPTq.js",
+			"/assets/select-CfSBciQ8.js",
 			"/assets/Reveal-B5FlXgoM.js"
 		]
 	},
 	"/about": {
 		filePath: "D:/dev/Elfurat Spices/lovable/src/routes/about.tsx",
 		children: void 0,
-		preloads: ["/assets/about-Cl9_rGRP.js", "/assets/Reveal-B5FlXgoM.js"]
+		preloads: ["/assets/about-suOuFh9O.js", "/assets/Reveal-B5FlXgoM.js"]
 	},
 	"/contact": {
 		filePath: "D:/dev/Elfurat Spices/lovable/src/routes/contact.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/contact-DwXwCLrb.js",
-			"/assets/message-circle-DF4EGBMw.js",
+			"/assets/contact-98FMZ2QB.js",
+			"/assets/message-circle-D7hoGjQX.js",
 			"/assets/Reveal-B5FlXgoM.js"
 		]
 	},
@@ -54,10 +54,10 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "D:/dev/Elfurat Spices/lovable/src/routes/export-inquiries.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/export-inquiries-B8HLlhAA.js",
-			"/assets/select-Cata8prb.js",
-			"/assets/message-circle-DF4EGBMw.js",
-			"/assets/ship-KERMhdmk.js",
+			"/assets/export-inquiries-78DduEd8.js",
+			"/assets/select-CfSBciQ8.js",
+			"/assets/message-circle-D7hoGjQX.js",
+			"/assets/ship-BeDZhu4K.js",
 			"/assets/Reveal-B5FlXgoM.js"
 		]
 	},
@@ -66,10 +66,10 @@ var tsrStartManifest = () => ({ routes: {
 		children: void 0,
 		preloads: [
 			"/assets/product._slug-BYLDBfQW.js",
-			"/assets/product._slug-Dh8YqTqE.js",
-			"/assets/arrow-left-D5Ujj6L6.js",
-			"/assets/ProductCard-Csnk1U1X.js",
-			"/assets/ship-KERMhdmk.js",
+			"/assets/product._slug-CF2X3mdZ.js",
+			"/assets/arrow-left-D2cKDzTy.js",
+			"/assets/ProductCard-BrHtcPTq.js",
+			"/assets/ship-BeDZhu4K.js",
 			"/assets/Reveal-B5FlXgoM.js"
 		]
 	},
@@ -77,9 +77,9 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "D:/dev/Elfurat Spices/lovable/src/routes/products.$category.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/products._category-Ca7RTQdO.js",
-			"/assets/arrow-left-D5Ujj6L6.js",
-			"/assets/ProductCard-Csnk1U1X.js",
+			"/assets/products._category-BjnoWkBt.js",
+			"/assets/arrow-left-D2cKDzTy.js",
+			"/assets/ProductCard-BrHtcPTq.js",
 			"/assets/Reveal-B5FlXgoM.js",
 			"/assets/products._category-DQm1YZjY.js"
 		]
@@ -88,9 +88,9 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "D:/dev/Elfurat Spices/lovable/src/routes/products.index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/products.index-D4psiuiY.js",
-			"/assets/ProductCard-Csnk1U1X.js",
-			"/assets/check-C8Y28ILP.js",
+			"/assets/products.index-DS_V7da5.js",
+			"/assets/ProductCard-BrHtcPTq.js",
+			"/assets/check-mFD7HnOo.js",
 			"/assets/Reveal-B5FlXgoM.js"
 		]
 	}

@@ -1,0 +1,9 @@
+{
+  "issuer": "https://elfuratspices.com",
+  "authorization_endpoint": "https://elfuratspices.com/oauth/authorize",
+  "token_endpoint": "https://elfuratspices.com/oauth/token",
+  "jwks_uri": "https://elfuratspices.com/oauth/jwks",
+  "response_types_supported": ["code", "token"],
+  "grant_types_supported": ["authorization_code", "client_credentials"],
+  "token_endpoint_auth_methods_supported": ["client_secret_basic", "client_secret_post"]
+}

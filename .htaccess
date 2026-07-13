@@ -1,6 +1,22 @@
+<IfModule mod_headers.c>
+  <FilesMatch "^index\.(html|md)$">
+    Header add Link "</.well-known/api-catalog>; rel=\"api-catalog\""
+    Header add Link "</.well-known/mcp/server-card.json>; rel=\"mcp-server-card\""
+  </FilesMatch>
+  
+  # Ensure JSON types for .well-known endpoints
+  <FilesMatch "^api-catalog$">
+    ForceType application/linkset+json
+  </FilesMatch>
+</IfModule>
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # Serve markdown for agents on the root path
+  RewriteCond %{HTTP_ACCEPT} text/markdown
+  RewriteRule ^$ index.md [L]
 
   # Serve existing files and directories
   RewriteCond %{REQUEST_FILENAME} -f [OR]

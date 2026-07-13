@@ -178,6 +178,31 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+
+  useEffect(() => {
+    if (typeof navigator !== "undefined" && "modelContext" in navigator) {
+      // @ts-ignore - WebMCP API
+      navigator.modelContext?.provideContext({
+        tools: [
+          {
+            name: "search_spices",
+            description: "Search for spices in the catalog",
+            inputSchema: {
+              type: "object",
+              properties: {
+                query: { type: "string" }
+              },
+              required: ["query"]
+            },
+            execute: async (args: any) => {
+              return `Results for ${args.query}: Visit https://elfuratspices.com/products?q=${encodeURIComponent(args.query)}`;
+            }
+          }
+        ]
+      });
+    }
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       <script
