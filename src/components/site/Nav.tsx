@@ -124,7 +124,7 @@ export function Nav() {
                       transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
                       className="absolute left-1/2 top-full -translate-x-1/2 pt-4 w-[560px]"
                     >
-                      <div className="relative rounded-3xl border border-white/60 bg-white/70 p-3 shadow-[0_30px_60px_-15px_rgba(62,39,35,0.25)]"
+                      <div className="relative rounded-3xl border border-white/60 bg-white p-3 shadow-[0_30px_60px_-15px_rgba(62,39,35,0.25)]"
                         style={{ backdropFilter: "saturate(180%) blur(22px)", WebkitBackdropFilter: "saturate(180%) blur(22px)" }}>
                         <div className="grid grid-cols-2 gap-1.5">
                           {CATEGORIES.map((c, i) => (
@@ -139,8 +139,8 @@ export function Nav() {
                                 params={{ category: c.slug }}
                                 className="group flex items-center gap-3 rounded-2xl p-2.5 hover:bg-terracotta/10 transition-colors duration-300"
                               >
-                                <div className="h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-muted">
-                                  <Image src={c.hero} alt={c.name} className="transition-transform duration-500 group-hover:scale-110" />
+                                <div className="h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-muted/20">
+                                  <Image src={c.hero} alt={c.name} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
                                 </div>
                                 <div className="min-w-0">
                                   <div className="font-display text-sm font-semibold text-clove group-hover:text-terracotta transition-colors truncate">

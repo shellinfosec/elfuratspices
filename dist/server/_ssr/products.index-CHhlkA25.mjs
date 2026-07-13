@@ -2,7 +2,7 @@ import { o as __toESM } from "../_runtime.mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
-import { i as AnimatePresence, r as motion } from "../_libs/framer-motion.mjs";
+import { a as AnimatePresence, i as motion } from "../_libs/framer-motion.mjs";
 import { c as Search, i as SlidersHorizontal, t as X, w as Check } from "../_libs/lucide-react.mjs";
 import { n as PRODUCTS, t as CATEGORIES } from "./products-BSJ78AEw.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";

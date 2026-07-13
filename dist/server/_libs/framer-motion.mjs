@@ -4004,6 +4004,87 @@ function transform(...args) {
 	return useImmediate ? interpolator(inputValue) : interpolator;
 }
 //#endregion
+//#region node_modules/motion-dom/dist/es/value/follow-value.mjs
+/**
+* Attach an animation to a MotionValue that will animate whenever the value changes.
+* Similar to attachSpring but supports any transition type (spring, tween, inertia, etc.)
+*
+* @param value - The MotionValue to animate
+* @param source - Initial value or MotionValue to track
+* @param options - Animation transition options
+* @returns Cleanup function
+*
+* @public
+*/
+function attachFollow(value, source, options = {}) {
+	const initialValue = value.get();
+	let activeAnimation = null;
+	let latestValue = initialValue;
+	let latestSetter;
+	const unit = typeof initialValue === "string" ? initialValue.replace(/[\d.-]/g, "") : void 0;
+	const stopAnimation = () => {
+		if (activeAnimation) {
+			activeAnimation.stop();
+			activeAnimation = null;
+		}
+		value.animation = void 0;
+	};
+	const startAnimation = () => {
+		const currentValue = asNumber$1(value.get());
+		const targetValue = asNumber$1(latestValue);
+		if (currentValue === targetValue) {
+			stopAnimation();
+			return;
+		}
+		const velocity = activeAnimation ? activeAnimation.getGeneratorVelocity() : value.getVelocity();
+		stopAnimation();
+		activeAnimation = new JSAnimation({
+			keyframes: [currentValue, targetValue],
+			velocity,
+			type: "spring",
+			restDelta: .001,
+			restSpeed: .01,
+			...options,
+			onUpdate: latestSetter
+		});
+	};
+	const scheduleAnimation = () => {
+		startAnimation();
+		value.animation = activeAnimation ?? void 0;
+		value["events"].animationStart?.notify();
+		activeAnimation?.then(() => {
+			value.animation = void 0;
+			value["events"].animationComplete?.notify();
+		});
+	};
+	value.attach((v, set) => {
+		latestValue = v;
+		latestSetter = (latest) => set(parseValue(latest, unit));
+		frame.postRender(scheduleAnimation);
+	}, stopAnimation);
+	if (isMotionValue(source)) {
+		let skipNextAnimation = options.skipInitialAnimation === true;
+		const removeSourceOnChange = source.on("change", (v) => {
+			if (skipNextAnimation) {
+				skipNextAnimation = false;
+				value.jump(parseValue(v, unit), false);
+			} else value.set(parseValue(v, unit));
+		});
+		const removeValueOnDestroy = value.on("destroy", removeSourceOnChange);
+		return () => {
+			removeSourceOnChange();
+			removeValueOnDestroy();
+		};
+	}
+	return stopAnimation;
+}
+function parseValue(v, unit) {
+	return unit ? v + unit : v;
+}
+function asNumber$1(v) {
+	return typeof v === "number" ? v : parseFloat(v);
+}
+//#endregion
 //#region node_modules/motion-dom/dist/es/value/types/utils/find.mjs
 /**
 * A list of all ValueTypes
@@ -10395,4 +10476,24 @@ function useMapTransform(inputValue, inputRange, outputMap, options) {
 	return output;
 }
 //#endregion
-export { AnimatePresence as i, useScroll as n, motion as r, useTransform as t };
+//#region node_modules/framer-motion/dist/es/value/use-follow-value.mjs
+function useFollowValue(source, options = {}) {
+	const { isStatic } = (0, import_react.useContext)(MotionConfigContext);
+	const getFromSource = () => isMotionValue(source) ? source.get() : source;
+	if (isStatic) return useTransform(getFromSource);
+	const value = useMotionValue(getFromSource());
+	(0, import_react.useInsertionEffect)(() => {
+		return attachFollow(value, source, options);
+	}, [value, JSON.stringify(options)]);
+	return value;
+}
+//#endregion
+//#region node_modules/framer-motion/dist/es/value/use-spring.mjs
+function useSpring(source, options = {}) {
+	return useFollowValue(source, {
+		type: "spring",
+		...options
+	});
+}
+//#endregion
+export { AnimatePresence as a, motion as i, useTransform as n, useScroll as r, useSpring as t };

@@ -1,17 +1,16 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import { ArrowUp } from "lucide-react";
+import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 
 export function BackToTop() {
-  const [progress, setProgress] = useState(0);
+  const { scrollYProgress } = useScroll();
+  const smoothProgress = useSpring(scrollYProgress, { stiffness: 400, damping: 40, mass: 0.1 });
+  
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
-      const h = document.documentElement;
-      const max = h.scrollHeight - h.clientHeight;
-      const p = max > 0 ? h.scrollTop / max : 0;
-      setProgress(p);
-      setVisible(h.scrollTop > 400);
+      setVisible(window.scrollY > 400);
     };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -20,6 +19,7 @@ export function BackToTop() {
 
   const R = 22;
   const C = 2 * Math.PI * R;
+  const offset = useTransform(smoothProgress, [0, 1], [C, 0]);
 
   return (
     <button
@@ -31,15 +31,14 @@ export function BackToTop() {
     >
       <svg viewBox="0 0 50 50" className="absolute inset-0 -rotate-90 h-full w-full pointer-events-none">
         <circle cx="25" cy="25" r={R} stroke="rgba(62,39,35,0.1)" strokeWidth="2" fill="none" />
-        <circle
+        <motion.circle
           cx="25" cy="25" r={R}
           stroke="#bf6040"
           strokeWidth="2.5"
           strokeLinecap="round"
           fill="none"
           strokeDasharray={C}
-          strokeDashoffset={C * (1 - progress)}
-          style={{ transition: "stroke-dashoffset 500ms cubic-bezier(0.16,1,0.3,1)" }}
+          style={{ strokeDashoffset: offset }}
         />
       </svg>
       <ArrowUp className="h-5 w-5 text-clove" />

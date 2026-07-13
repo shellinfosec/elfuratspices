@@ -4,7 +4,7 @@ import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].m
 import { t as Image } from "./image-B6cf7Hyo.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
-import { n as useScroll, r as motion, t as useTransform } from "../_libs/framer-motion.mjs";
+import { i as motion, n as useTransform, r as useScroll } from "../_libs/framer-motion.mjs";
 import { E as Award, S as ChevronLeft, d as PackageCheck, g as Leaf, k as ArrowRight, n as Truck, s as Send, v as Earth, x as ChevronRight } from "../_libs/lucide-react.mjs";
 import { n as PRODUCTS, t as CATEGORIES } from "./products-BSJ78AEw.mjs";
 import { a as SelectValue, i as SelectTrigger, n as SelectContent, r as SelectItem, t as Select } from "./select-Dg1urBTx.mjs";

@@ -4,7 +4,7 @@ import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].m
 import { t as Image } from "./image-B6cf7Hyo.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
-import { r as motion } from "../_libs/framer-motion.mjs";
+import { i as motion } from "../_libs/framer-motion.mjs";
 import { A as ArrowLeft, T as BadgeCheck, _ as FlaskConical, a as Ship, l as Phone, o as ShieldCheck, r as Sprout, u as Package, y as CircleCheck } from "../_libs/lucide-react.mjs";
 import { a as productsByCategory } from "./products-BSJ78AEw.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";

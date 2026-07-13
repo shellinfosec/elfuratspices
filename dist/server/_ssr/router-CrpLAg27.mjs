@@ -3,7 +3,7 @@ import { a as LOGOS, i as HERO_IMAGES, o as waUrl, r as CERTS, t as BRAND } from
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
 import { t as Image } from "./image-B6cf7Hyo.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
-import { i as AnimatePresence, n as useScroll, r as motion, t as useTransform } from "../_libs/framer-motion.mjs";
+import { a as AnimatePresence, i as motion, n as useTransform, r as useScroll, t as useSpring } from "../_libs/framer-motion.mjs";
 import { C as ChevronDown, D as ArrowUp, h as Mail, l as Phone, m as MapPin, p as Menu, t as X } from "../_libs/lucide-react.mjs";
 import { n as PRODUCTS, t as CATEGORIES } from "./products-BSJ78AEw.mjs";
 import { _ as useRouter, c as HeadContent, d as createRouter, f as Outlet, g as Link, h as createRootRouteWithContext, l as useRouterState, m as createFileRoute, p as lazyRouteComponent, s as Scripts } from "../_libs/@tanstack/react-router+[...].mjs";
@@ -13,11 +13,11 @@ import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as require_aos } from "../_libs/aos.mjs";
 import { t as Lenis } from "../_libs/lenis.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-Bva7fuUj.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-CrpLAg27.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
-var styles_default = "/assets/styles-CKNZxGLv.css";
+var styles_default = "/assets/styles-DGmZI5J1.css";
 var LINKS = [
 	{
 		to: "/",
@@ -161,7 +161,7 @@ function Nav() {
 							},
 							className: "absolute left-1/2 top-full -translate-x-1/2 pt-4 w-[560px]",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "relative rounded-3xl border border-white/60 bg-white/70 p-3 shadow-[0_30px_60px_-15px_rgba(62,39,35,0.25)]",
+								className: "relative rounded-3xl border border-white/60 bg-white p-3 shadow-[0_30px_60px_-15px_rgba(62,39,35,0.25)]",
 								style: {
 									backdropFilter: "saturate(180%) blur(22px)",
 									WebkitBackdropFilter: "saturate(180%) blur(22px)"
@@ -183,11 +183,11 @@ function Nav() {
 											params: { category: c.slug },
 											className: "group flex items-center gap-3 rounded-2xl p-2.5 hover:bg-terracotta/10 transition-colors duration-300",
 											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-												className: "h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-muted",
+												className: "h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-muted/20",
 												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 													src: c.hero,
 													alt: c.name,
-													className: "transition-transform duration-500 group-hover:scale-110"
+													className: "h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
 												})
 											}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 												className: "min-w-0",
@@ -463,15 +463,16 @@ function Footer() {
 	});
 }
 function BackToTop() {
-	const [progress, setProgress] = (0, import_react.useState)(0);
+	const { scrollYProgress } = useScroll();
+	const smoothProgress = useSpring(scrollYProgress, {
+		stiffness: 400,
+		damping: 40,
+		mass: .1
+	});
 	const [visible, setVisible] = (0, import_react.useState)(false);
 	(0, import_react.useEffect)(() => {
 		const onScroll = () => {
-			const h = document.documentElement;
-			const max = h.scrollHeight - h.clientHeight;
-			const p = max > 0 ? h.scrollTop / max : 0;
-			setProgress(p);
-			setVisible(h.scrollTop > 400);
+			setVisible(window.scrollY > 400);
 		};
 		onScroll();
 		window.addEventListener("scroll", onScroll, { passive: true });
@@ -479,6 +480,7 @@ function BackToTop() {
 	}, []);
 	const R = 22;
 	const C = 2 * Math.PI * R;
+	const offset = useTransform(smoothProgress, [0, 1], [C, 0]);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 		onClick: () => window.scrollTo({
 			top: 0,
@@ -496,7 +498,7 @@ function BackToTop() {
 				stroke: "rgba(62,39,35,0.1)",
 				strokeWidth: "2",
 				fill: "none"
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion.circle, {
 				cx: "25",
 				cy: "25",
 				r: R,
@@ -505,13 +507,12 @@ function BackToTop() {
 				strokeLinecap: "round",
 				fill: "none",
 				strokeDasharray: C,
-				strokeDashoffset: C * (1 - progress),
-				style: { transition: "stroke-dashoffset 500ms cubic-bezier(0.16,1,0.3,1)" }
+				style: { strokeDashoffset: offset }
 			})]
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUp, { className: "h-5 w-5 text-clove" })]
 	});
 }
-var WA_ICON = "https://shellinfosec.in/wp-content/uploads/2026/07/whatsapp.webp";
+var WA_ICON = LOGOS.whatsapp;
 function WhatsAppFloat() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.a, {
 		href: waUrl("Hello Elfurat Spices, I'd like to make an inquiry."),
