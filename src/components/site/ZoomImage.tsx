@@ -37,7 +37,7 @@ export function ZoomImage({ src, alt, zoom = 2.2, className = "" }: Props) {
           transformOrigin: `${pos.x}% ${pos.y}%`,
           transform: active ? `scale(${zoom})` : "scale(1)",
         }}
-        className="block h-full w-full object-cover transition-transform duration-500 ease-out"
+        className="absolute inset-0 block h-full w-full object-cover transition-transform duration-500 ease-out"
       />
       {active && (
         <div className="pointer-events-none absolute top-4 right-4 rounded-full bg-white/85 backdrop-blur px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wider text-clove shadow-float">

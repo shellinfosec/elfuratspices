@@ -1,18 +1,20 @@
 {
   "name": "Elfurat Spices",
   "short_name": "Elfurat",
+  "description": "Elfurat Spices - Premium Indian Spices",
+  "start_url": "/",
   "icons": [
     {
       "src": "/favicons/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     },
     {
       "src": "/favicons/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
   ],
   "theme_color": "#ffffff",
