@@ -69,6 +69,7 @@ const routes = [
   "/product/foxnut",
   "/products/dairy-staples",
   "/product/pure-ghee",
+  "/product/honey",
   "/product/paneer",
   "/product/cheese",
   "/product/curd"
