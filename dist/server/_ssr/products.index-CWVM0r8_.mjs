@@ -4,10 +4,10 @@ import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
 import { a as AnimatePresence, i as motion } from "../_libs/framer-motion.mjs";
 import { c as Search, i as SlidersHorizontal, t as X, w as Check } from "../_libs/lucide-react.mjs";
-import { n as PRODUCTS, t as CATEGORIES } from "./products-3KWk4KYT.mjs";
+import { n as PRODUCTS, t as CATEGORIES } from "./products-DxXtmdB1.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as ProductCard } from "./ProductCard-D5f07Igs.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/products.index-CVexfij9.js
+//#region node_modules/.nitro/vite/services/ssr/assets/products.index-CWVM0r8_.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ProductsIndex() {

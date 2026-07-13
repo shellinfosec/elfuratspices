@@ -1,16 +1,16 @@
 import { o as __toESM } from "../_runtime.mjs";
-import { a as LOGOS, o as waUrl, t as BRAND } from "./brand-DOimiTyY.mjs";
+import { a as LOGOS, o as waUrl, t as BRAND } from "./brand-Cdcs6iHz.mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
 import { t as Image } from "./image-B6cf7Hyo.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
 import { i as motion } from "../_libs/framer-motion.mjs";
 import { A as ArrowLeft, T as BadgeCheck, _ as FlaskConical, a as Ship, l as Phone, o as ShieldCheck, r as Sprout, u as Package, y as CircleCheck } from "../_libs/lucide-react.mjs";
-import { a as productsByCategory } from "./products-3KWk4KYT.mjs";
+import { a as productsByCategory } from "./products-DxXtmdB1.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route } from "./product._slug-Bsqka5OX.mjs";
+import { t as Route } from "./product._slug-DlFDBIsR.mjs";
 import { t as ProductCard } from "./ProductCard-D5f07Igs.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-DfZjIoB4.js
+//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-BSTxKKSI.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ZoomImage({ src, alt, zoom = 2.2, className = "" }) {

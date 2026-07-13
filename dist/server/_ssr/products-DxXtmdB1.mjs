@@ -1,5 +1,5 @@
-import { n as CDN } from "./brand-DOimiTyY.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/products-3KWk4KYT.js
+import { n as CDN } from "./brand-Cdcs6iHz.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/products-DxXtmdB1.js
 var CATEGORIES = [
 	{
 		slug: "whole-spices",

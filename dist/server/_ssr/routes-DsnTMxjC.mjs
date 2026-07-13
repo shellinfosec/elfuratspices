@@ -1,17 +1,17 @@
 import { o as __toESM } from "../_runtime.mjs";
-import { a as LOGOS, i as HERO_IMAGES, o as waUrl, r as CERTS, t as BRAND } from "./brand-DOimiTyY.mjs";
+import { a as LOGOS, i as HERO_IMAGES, o as waUrl, r as CERTS, t as BRAND } from "./brand-Cdcs6iHz.mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
 import { t as Image } from "./image-B6cf7Hyo.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
 import { i as motion, n as useTransform, r as useScroll } from "../_libs/framer-motion.mjs";
 import { E as Award, S as ChevronLeft, d as PackageCheck, g as Leaf, k as ArrowRight, n as Truck, s as Send, v as Earth, x as ChevronRight } from "../_libs/lucide-react.mjs";
-import { n as PRODUCTS, t as CATEGORIES } from "./products-3KWk4KYT.mjs";
+import { n as PRODUCTS, t as CATEGORIES } from "./products-DxXtmdB1.mjs";
 import { a as SelectValue, i as SelectTrigger, n as SelectContent, r as SelectItem, t as Select } from "./select-Dg1urBTx.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as ProductCard } from "./ProductCard-D5f07Igs.mjs";
 import { t as useEmblaCarousel } from "../_libs/embla-carousel-react+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-BlM-yfUf.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-DsnTMxjC.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ContactSection() {

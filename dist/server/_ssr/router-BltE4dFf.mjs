@@ -1,19 +1,19 @@
 import { o as __toESM } from "../_runtime.mjs";
-import { a as LOGOS, o as waUrl, r as CERTS, t as BRAND } from "./brand-DOimiTyY.mjs";
+import { a as LOGOS, o as waUrl, r as CERTS, t as BRAND } from "./brand-Cdcs6iHz.mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
 import { t as Image } from "./image-B6cf7Hyo.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { a as AnimatePresence, i as motion, n as useTransform, r as useScroll, t as useSpring } from "../_libs/framer-motion.mjs";
 import { C as ChevronDown, D as ArrowUp, h as Mail, l as Phone, m as MapPin, p as Menu, t as X } from "../_libs/lucide-react.mjs";
-import { n as PRODUCTS, t as CATEGORIES } from "./products-3KWk4KYT.mjs";
+import { n as PRODUCTS, t as CATEGORIES } from "./products-DxXtmdB1.mjs";
 import { _ as useRouter, c as HeadContent, d as createRouter, f as Outlet, g as Link, h as createRootRouteWithContext, l as useRouterState, m as createFileRoute, p as lazyRouteComponent, s as Scripts } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route$7 } from "./product._slug-Bsqka5OX.mjs";
-import { t as Route$8 } from "./products._category-Biamxt2l.mjs";
+import { t as Route$7 } from "./product._slug-DlFDBIsR.mjs";
+import { t as Route$8 } from "./products._category-BpLhq3jQ.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as require_aos } from "../_libs/aos.mjs";
 import { t as Lenis } from "../_libs/lenis.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-B2PqaE1N.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BltE4dFf.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
@@ -220,9 +220,9 @@ function Nav() {
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "hidden md:flex items-center gap-2",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-						href: "tel:+917838263460",
+						href: "tel:+917011921692",
 						className: `hidden lg:inline-flex items-center gap-2 text-sm font-medium ${textColor} ${textHover} transition-colors duration-500`,
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "h-4 w-4" }), "+91 78382 63460"]
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "h-4 w-4" }), "+91 70119 21692"]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 						to: "/export-inquiries",
 						className: "btn-magnetic inline-flex items-center rounded-full bg-terracotta px-5 py-2.5 text-sm font-semibold text-white",
@@ -681,7 +681,7 @@ var ORG_JSONLD = {
 	},
 	contactPoint: [{
 		"@type": "ContactPoint",
-		telephone: "+91-78382-63460",
+		telephone: "+91-70119-21692",
 		contactType: "sales",
 		areaServed: "Worldwide",
 		availableLanguage: ["English", "Hindi"]
@@ -974,7 +974,7 @@ ${[
 		"Cache-Control": "public, max-age=3600"
 	} });
 } } } });
-var $$splitComponentImporter$4 = () => import("./export-inquiries-CwHt-3Q8.mjs");
+var $$splitComponentImporter$4 = () => import("./export-inquiries-DPYK2nCu.mjs");
 var Route$4 = createFileRoute("/export-inquiries")({
 	head: () => ({ meta: [
 		{ title: "Export Inquiries - B2B & Bulk Orders | Elfurat Spices" },
@@ -1017,7 +1017,7 @@ var Route$4 = createFileRoute("/export-inquiries")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-var $$splitComponentImporter$3 = () => import("./contact-DDUt37Ta.mjs");
+var $$splitComponentImporter$3 = () => import("./contact-CDev3gda.mjs");
 var Route$3 = createFileRoute("/contact")({
 	head: () => ({ meta: [
 		{ title: "Contact Elfurat Spices - Delhi, India" },
@@ -1060,7 +1060,7 @@ var Route$3 = createFileRoute("/contact")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./about-CrosticC.mjs");
+var $$splitComponentImporter$2 = () => import("./about-Chq4jtp8.mjs");
 var Route$2 = createFileRoute("/about")({
 	head: () => ({ meta: [
 		{ title: "About Elfurat Spices - Global Indian Spice Exporter" },
@@ -1103,7 +1103,7 @@ var Route$2 = createFileRoute("/about")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./routes-BlM-yfUf.mjs");
+var $$splitComponentImporter$1 = () => import("./routes-DsnTMxjC.mjs");
 var Route$1 = createFileRoute("/")({
 	head: () => ({ meta: [{ title: "Elfurat Spices - Premium Indian Spices, Globally Exported" }, {
 		name: "description",
@@ -1111,7 +1111,7 @@ var Route$1 = createFileRoute("/")({
 	}] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./products.index-CVexfij9.mjs");
+var $$splitComponentImporter = () => import("./products.index-CWVM0r8_.mjs");
 var Route = createFileRoute("/products/")({
 	head: () => ({ meta: [
 		{ title: "Products - Complete Catalogue | Elfurat Spices" },

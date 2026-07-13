@@ -1,11 +1,11 @@
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
 import { A as ArrowLeft } from "../_libs/lucide-react.mjs";
-import { a as productsByCategory, t as CATEGORIES } from "./products-3KWk4KYT.mjs";
+import { a as productsByCategory, t as CATEGORIES } from "./products-DxXtmdB1.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as ProductCard } from "./ProductCard-D5f07Igs.mjs";
-import { t as Route } from "./products._category-Biamxt2l.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/products._category-CRhFvFKF.js
+import { t as Route } from "./products._category-BpLhq3jQ.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/products._category-CqwTvvlw.js
 var import_jsx_runtime = require_jsx_runtime();
 function CategoryPage() {
 	const { c } = Route.useLoaderData();

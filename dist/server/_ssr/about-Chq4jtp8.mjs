@@ -1,9 +1,9 @@
-import { i as HERO_IMAGES, r as CERTS } from "./brand-DOimiTyY.mjs";
+import { i as HERO_IMAGES, r as CERTS } from "./brand-Cdcs6iHz.mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
 import { t as Image } from "./image-B6cf7Hyo.mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
 import { i as motion } from "../_libs/framer-motion.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/about-CrosticC.js
+//#region node_modules/.nitro/vite/services/ssr/assets/about-Chq4jtp8.js
 var import_jsx_runtime = require_jsx_runtime();
 var TIMELINE = [
 	{
