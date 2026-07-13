@@ -9,10 +9,10 @@ export function Preloader() {
     const start = Date.now();
     const finish = () => {
       const elapsed = Date.now() - start;
-      const wait = Math.max(0, 900 - elapsed);
+      const wait = Math.max(0, 150 - elapsed);
       setTimeout(() => {
         setDone(true);
-        setTimeout(() => setHidden(true), 700);
+        setTimeout(() => setHidden(true), 300);
       }, wait);
     };
     if (document.readyState === "complete") finish();
@@ -25,7 +25,7 @@ export function Preloader() {
   if (hidden) return null;
   return (
     <div
-      className={`fixed inset-0 z-[100] flex items-center justify-center bg-background ease-elfurat transition-all duration-700 ${
+      className={`fixed inset-0 z-[100] flex items-center justify-center bg-background ease-elfurat transition-all duration-300 ${
         done ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}
     >

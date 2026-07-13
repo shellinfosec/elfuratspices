@@ -11,7 +11,7 @@ import { a as SelectValue, i as SelectTrigger, n as SelectContent, r as SelectIt
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as ProductCard } from "./ProductCard-Q47kmRh0.mjs";
 import { t as useEmblaCarousel } from "../_libs/embla-carousel-react+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-ortQ0FVw.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-CjrZyHVe.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ContactSection() {
@@ -261,7 +261,7 @@ function Marquee({ items, speed = "normal", className = "", separator }) {
 		})
 	});
 }
-function HeroParallax({ image, alt, children, className = "" }) {
+function HeroParallax({ image, alt, children, className = "", priority = false }) {
 	const ref = (0, import_react.useRef)(null);
 	const { scrollYProgress } = useScroll({
 		target: ref,
@@ -286,7 +286,7 @@ function HeroParallax({ image, alt, children, className = "" }) {
 					src: image,
 					alt,
 					className: "h-[115%] w-full object-cover",
-					loading: "eager"
+					priority
 				})
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "pointer-events-none absolute inset-x-0 top-0 h-64 bg-gradient-to-b from-clove/80 via-clove/40 to-transparent z-[1]" }),

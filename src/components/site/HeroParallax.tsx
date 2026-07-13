@@ -7,9 +7,10 @@ type Props = {
   alt: string;
   children: ReactNode;
   className?: string;
+  priority?: boolean;
 };
 
-export function HeroParallax({ image, alt, children, className = "" }: Props) {
+export function HeroParallax({ image, alt, children, className = "", priority = false }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -36,7 +37,7 @@ export function HeroParallax({ image, alt, children, className = "" }: Props) {
           src={image}
           alt={alt}
           className="h-[115%] w-full object-cover"
-          loading="eager"
+          priority={priority}
         />
       </motion.div>
       {/* Top overlay - improves header contrast */}

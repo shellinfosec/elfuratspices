@@ -13,11 +13,11 @@ import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as require_aos } from "../_libs/aos.mjs";
 import { t as Lenis } from "../_libs/lenis.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-Dm-O9x_e.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-DN2R2MWY.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
-var styles_default = "/assets/styles-Bvh-JT9s.css";
+var styles_default = "/assets/styles-B1LnBlM1.css";
 var LINKS = [
 	{
 		to: "/",
@@ -555,10 +555,10 @@ function Preloader() {
 		const start = Date.now();
 		const finish = () => {
 			const elapsed = Date.now() - start;
-			const wait = Math.max(0, 900 - elapsed);
+			const wait = Math.max(0, 150 - elapsed);
 			setTimeout(() => {
 				setDone(true);
-				setTimeout(() => setHidden(true), 700);
+				setTimeout(() => setHidden(true), 300);
 			}, wait);
 		};
 		if (document.readyState === "complete") finish();
@@ -568,7 +568,7 @@ function Preloader() {
 	}, []);
 	if (hidden) return null;
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		className: `fixed inset-0 z-[100] flex items-center justify-center bg-background ease-elfurat transition-all duration-700 ${done ? "opacity-0 pointer-events-none" : "opacity-100"}`,
+		className: `fixed inset-0 z-[100] flex items-center justify-center bg-background ease-elfurat transition-all duration-300 ${done ? "opacity-0 pointer-events-none" : "opacity-100"}`,
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "pattern-dots absolute inset-0 opacity-40" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "relative flex flex-col items-center gap-6",
 			children: [
@@ -985,7 +985,7 @@ var Route$2 = createFileRoute("/about")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./routes-ortQ0FVw.mjs");
+var $$splitComponentImporter$1 = () => import("./routes-CjrZyHVe.mjs");
 var Route$1 = createFileRoute("/")({
 	head: () => ({ meta: [{ title: "Elfurat Spices - Premium Indian Spices, Globally Exported" }, {
 		name: "description",
