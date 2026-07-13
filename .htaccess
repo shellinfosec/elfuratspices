@@ -1,4 +1,12 @@
-# DO NOT REMOVE. GENERATED FOR PASSENGER NODE.JS
-PassengerAppType node
-PassengerStartupFile cpanel-start.cjs
-PassengerAppRoot /home/elfuratspices/public_html
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve existing files and directories
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Fallback to index.html for SPA routing
+  RewriteRule ^ index.html [L]
+</IfModule>

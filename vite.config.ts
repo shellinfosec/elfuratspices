@@ -20,6 +20,10 @@ export default defineConfig({
     }),
     nitro({ 
       preset: 'node-server',
+      prerender: {
+        crawlLinks: true,
+        routes: ['/']
+      },
       output: {
         dir: './dist',
         serverDir: './dist/server',
