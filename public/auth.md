@@ -1,4 +1,4 @@
-# Authentication for AI Agents
+# Auth.md
 
 Welcome! If you are an AI agent, you can interact with our platform by registering for an API key.
 

@@ -32,9 +32,9 @@ var public_assets_data_default = {
 	},
 	"/auth.md": {
 		"type": "text/markdown; charset=utf-8",
-		"etag": "\"1ca-/kCKFi2xDtidDDDMwWHhaAjcZ4g\"",
-		"mtime": "2026-07-13T22:31:00.026Z",
-		"size": 458,
+		"etag": "\"1b5-iOQuElbT9SCLgRtv0EdpIE5PgtE\"",
+		"mtime": "2026-07-13T22:41:25.920Z",
+		"size": 437,
 		"path": "../public/auth.md"
 	},
 	"/favicon.ico": {
@@ -79,6 +79,13 @@ var public_assets_data_default = {
 		"size": 253,
 		"path": "../public/sw.js"
 	},
+	"/_headers": {
+		"type": "text/plain; charset=utf-8",
+		"etag": "\"a5-pVxs8dRr27oQik3GTOCn/S5fzU0\"",
+		"mtime": "2026-07-13T22:41:33.465Z",
+		"size": 165,
+		"path": "../public/_headers"
+	},
 	"/.well-known/api-catalog": {
 		"type": "text/plain; charset=utf-8",
 		"etag": "\"18c-WV54/RY8xf3ONpqkI1Y87LMg7sw\"",
@@ -100,61 +107,12 @@ var public_assets_data_default = {
 		"size": 157,
 		"path": "../public/.well-known/oauth-protected-resource"
 	},
-	"/favicons/apple-touch-icon.png": {
-		"type": "image/png",
-		"etag": "\"715b-BZ4S0fg/JM81EWJTtxHW6y2atBM\"",
-		"mtime": "2026-07-13T17:58:22.901Z",
-		"size": 29019,
-		"path": "../public/favicons/apple-touch-icon.png"
-	},
-	"/favicons/favicon-96x96.png": {
-		"type": "image/png",
-		"etag": "\"3986-kAoK/r3qyCSVkOT8bTeB1z1/k2I\"",
-		"mtime": "2026-07-13T17:58:22.096Z",
-		"size": 14726,
-		"path": "../public/favicons/favicon-96x96.png"
-	},
-	"/favicons/favicon.ico": {
-		"type": "image/vnd.microsoft.icon",
-		"etag": "\"3aee-mMQ2YzkO4fracnbgVseGfVCtRt4\"",
-		"mtime": "2026-07-13T17:58:22.468Z",
-		"size": 15086,
-		"path": "../public/favicons/favicon.ico"
-	},
-	"/favicons/site.webmanifest": {
-		"type": "application/manifest+json",
-		"etag": "\"223-og9GeHqAlXXQP5JH0lAS9mptRHg\"",
-		"mtime": "2026-07-13T18:18:54.240Z",
-		"size": 547,
-		"path": "../public/favicons/site.webmanifest"
-	},
-	"/favicons/web-app-manifest-192x192.png": {
-		"type": "image/png",
-		"etag": "\"a892-OMxF+cubPB1e2IxiG6Pv22VPe84\"",
-		"mtime": "2026-07-13T17:58:23.311Z",
-		"size": 43154,
-		"path": "../public/favicons/web-app-manifest-192x192.png"
-	},
-	"/favicons/web-app-manifest-512x512.png": {
-		"type": "image/png",
-		"etag": "\"33c08-4OLtNMu6qpKfgZr1n37i2ZT54co\"",
-		"mtime": "2026-07-13T17:58:24.674Z",
-		"size": 211976,
-		"path": "../public/favicons/web-app-manifest-512x512.png"
-	},
 	"/assets/03A.webp": {
 		"type": "image/webp",
 		"etag": "\"783ec-1LLGel1QcIDrC8kLk27avRd2UxA\"",
 		"mtime": "2026-07-13T14:54:24.525Z",
 		"size": 492524,
 		"path": "../public/assets/03A.webp"
-	},
-	"/assets/04B.webp": {
-		"type": "image/webp",
-		"etag": "\"45498-ByauNA109ZLA8gcTj47y0aQdIRw\"",
-		"mtime": "2026-07-13T14:54:28.087Z",
-		"size": 283800,
-		"path": "../public/assets/04B.webp"
 	},
 	"/assets/04A.webp": {
 		"type": "image/webp",
@@ -163,40 +121,19 @@ var public_assets_data_default = {
 		"size": 480610,
 		"path": "../public/assets/04A.webp"
 	},
+	"/assets/04B.webp": {
+		"type": "image/webp",
+		"etag": "\"45498-ByauNA109ZLA8gcTj47y0aQdIRw\"",
+		"mtime": "2026-07-13T14:54:28.087Z",
+		"size": 283800,
+		"path": "../public/assets/04B.webp"
+	},
 	"/assets/04C.webp": {
 		"type": "image/webp",
 		"etag": "\"42b44-N9dyN9mUJiHOhb5T4nhDrWHX0e0\"",
 		"mtime": "2026-07-13T14:54:29.494Z",
 		"size": 273220,
 		"path": "../public/assets/04C.webp"
-	},
-	"/assets/01.webp": {
-		"type": "image/webp",
-		"etag": "\"b2660-Hgkvff9fY1IAKxiE4gcieKm9/ck\"",
-		"mtime": "2026-07-13T14:54:22.591Z",
-		"size": 730720,
-		"path": "../public/assets/01.webp"
-	},
-	"/assets/04D.webp": {
-		"type": "image/webp",
-		"etag": "\"8b240-0X1gAb8cIojZ8hsOKOWJVHRHH2U\"",
-		"mtime": "2026-07-13T14:54:31.138Z",
-		"size": 569920,
-		"path": "../public/assets/04D.webp"
-	},
-	"/og-image.png": {
-		"type": "image/png",
-		"etag": "\"11e716-Zr0++1pwoOEv3wKfIcQwh6IiCKk\"",
-		"mtime": "2026-07-13T17:38:52.222Z",
-		"size": 1173270,
-		"path": "../public/og-image.png"
-	},
-	"/favicons/favicon.svg": {
-		"type": "image/svg+xml",
-		"etag": "\"113a3b-4RsEayQ+8fcfT5GMFjBqrZTZxtM\"",
-		"mtime": "2026-07-13T17:58:20.539Z",
-		"size": 1129019,
-		"path": "../public/favicons/favicon.svg"
 	},
 	"/assets/05B.webp": {
 		"type": "image/webp",
@@ -212,19 +149,47 @@ var public_assets_data_default = {
 		"size": 245898,
 		"path": "../public/assets/05C.webp"
 	},
-	"/assets/06B.webp": {
-		"type": "image/webp",
-		"etag": "\"1ff58-E+OWqtNYb36T3SvTgSVG8rBNfhA\"",
-		"mtime": "2026-07-13T14:54:38.341Z",
-		"size": 130904,
-		"path": "../public/assets/06B.webp"
-	},
 	"/assets/06A.webp": {
 		"type": "image/webp",
 		"etag": "\"4d1c0-sgYb23eXHFG+FnPR1z9XVItnObA\"",
 		"mtime": "2026-07-13T14:54:37.993Z",
 		"size": 315840,
 		"path": "../public/assets/06A.webp"
+	},
+	"/assets/01.webp": {
+		"type": "image/webp",
+		"etag": "\"b2660-Hgkvff9fY1IAKxiE4gcieKm9/ck\"",
+		"mtime": "2026-07-13T14:54:22.591Z",
+		"size": 730720,
+		"path": "../public/assets/01.webp"
+	},
+	"/assets/04D.webp": {
+		"type": "image/webp",
+		"etag": "\"8b240-0X1gAb8cIojZ8hsOKOWJVHRHH2U\"",
+		"mtime": "2026-07-13T14:54:31.138Z",
+		"size": 569920,
+		"path": "../public/assets/04D.webp"
+	},
+	"/assets/05D.webp": {
+		"type": "image/webp",
+		"etag": "\"db870-qTyNfopWawgMXUlTqjii97Et1+E\"",
+		"mtime": "2026-07-13T14:54:36.814Z",
+		"size": 899184,
+		"path": "../public/assets/05D.webp"
+	},
+	"/og-image.png": {
+		"type": "image/png",
+		"etag": "\"11e716-Zr0++1pwoOEv3wKfIcQwh6IiCKk\"",
+		"mtime": "2026-07-13T17:38:52.222Z",
+		"size": 1173270,
+		"path": "../public/og-image.png"
+	},
+	"/assets/06B.webp": {
+		"type": "image/webp",
+		"etag": "\"1ff58-E+OWqtNYb36T3SvTgSVG8rBNfhA\"",
+		"mtime": "2026-07-13T14:54:38.341Z",
+		"size": 130904,
+		"path": "../public/assets/06B.webp"
 	},
 	"/assets/06C.webp": {
 		"type": "image/webp",
@@ -240,13 +205,6 @@ var public_assets_data_default = {
 		"size": 147788,
 		"path": "../public/assets/07A.webp"
 	},
-	"/assets/06D.webp": {
-		"type": "image/webp",
-		"etag": "\"5b5d2-jD6Zh/+4MP07h2hgWvftIls4mdY\"",
-		"mtime": "2026-07-13T14:54:40.729Z",
-		"size": 374226,
-		"path": "../public/assets/06D.webp"
-	},
 	"/assets/07B.webp": {
 		"type": "image/webp",
 		"etag": "\"209fe-pnKhvAs/sdhlo0Fp+dHvPo3n83w\"",
@@ -254,12 +212,19 @@ var public_assets_data_default = {
 		"size": 133630,
 		"path": "../public/assets/07B.webp"
 	},
-	"/assets/07C.webp": {
+	"/assets/06D.webp": {
 		"type": "image/webp",
-		"etag": "\"2eb00-BB/ojXr9xxmKWJwdGslk405MB2o\"",
-		"mtime": "2026-07-13T14:54:42.076Z",
-		"size": 191232,
-		"path": "../public/assets/07C.webp"
+		"etag": "\"5b5d2-jD6Zh/+4MP07h2hgWvftIls4mdY\"",
+		"mtime": "2026-07-13T14:54:40.729Z",
+		"size": 374226,
+		"path": "../public/assets/06D.webp"
+	},
+	"/assets/11B.webp": {
+		"type": "image/webp",
+		"etag": "\"1f108-Pq5Hxgkk7dr3viynMNBXnCkqJk8\"",
+		"mtime": "2026-07-13T14:54:42.887Z",
+		"size": 127240,
+		"path": "../public/assets/11B.webp"
 	},
 	"/assets/11A.webp": {
 		"type": "image/webp",
@@ -268,12 +233,12 @@ var public_assets_data_default = {
 		"size": 146796,
 		"path": "../public/assets/11A.webp"
 	},
-	"/assets/11B.webp": {
+	"/assets/07C.webp": {
 		"type": "image/webp",
-		"etag": "\"1f108-Pq5Hxgkk7dr3viynMNBXnCkqJk8\"",
-		"mtime": "2026-07-13T14:54:42.887Z",
-		"size": 127240,
-		"path": "../public/assets/11B.webp"
+		"etag": "\"2eb00-BB/ojXr9xxmKWJwdGslk405MB2o\"",
+		"mtime": "2026-07-13T14:54:42.076Z",
+		"size": 191232,
+		"path": "../public/assets/07C.webp"
 	},
 	"/assets/11C.webp": {
 		"type": "image/webp",
@@ -289,33 +254,12 @@ var public_assets_data_default = {
 		"size": 169274,
 		"path": "../public/assets/11D.webp"
 	},
-	"/assets/12A.webp": {
-		"type": "image/webp",
-		"etag": "\"6ea60-swCzCmXjtSOuhmNMatnZYY1hMTA\"",
-		"mtime": "2026-07-13T14:54:45.165Z",
-		"size": 453216,
-		"path": "../public/assets/12A.webp"
-	},
-	"/assets/12B.webp": {
-		"type": "image/webp",
-		"etag": "\"4b622-Q2v7TJsbEP5c1c5wvpioL6aYZ70\"",
-		"mtime": "2026-07-13T14:54:46.512Z",
-		"size": 308770,
-		"path": "../public/assets/12B.webp"
-	},
 	"/assets/12C.webp": {
 		"type": "image/webp",
 		"etag": "\"25aac-8SGHQq9YXleWCKNb97E3EaNW+F4\"",
 		"mtime": "2026-07-13T14:54:46.969Z",
 		"size": 154284,
 		"path": "../public/assets/12C.webp"
-	},
-	"/assets/13A.webp": {
-		"type": "image/webp",
-		"etag": "\"539d6-azlGj9AtKks7dsHFjv8rE1uzRdg\"",
-		"mtime": "2026-07-13T14:54:48.492Z",
-		"size": 342486,
-		"path": "../public/assets/13A.webp"
 	},
 	"/assets/13B.webp": {
 		"type": "image/webp",
@@ -324,12 +268,19 @@ var public_assets_data_default = {
 		"size": 136008,
 		"path": "../public/assets/13B.webp"
 	},
-	"/assets/05D.webp": {
+	"/assets/12A.webp": {
 		"type": "image/webp",
-		"etag": "\"db870-qTyNfopWawgMXUlTqjii97Et1+E\"",
-		"mtime": "2026-07-13T14:54:36.814Z",
-		"size": 899184,
-		"path": "../public/assets/05D.webp"
+		"etag": "\"6ea60-swCzCmXjtSOuhmNMatnZYY1hMTA\"",
+		"mtime": "2026-07-13T14:54:45.165Z",
+		"size": 453216,
+		"path": "../public/assets/12A.webp"
+	},
+	"/assets/13A.webp": {
+		"type": "image/webp",
+		"etag": "\"539d6-azlGj9AtKks7dsHFjv8rE1uzRdg\"",
+		"mtime": "2026-07-13T14:54:48.492Z",
+		"size": 342486,
+		"path": "../public/assets/13A.webp"
 	},
 	"/assets/14A.webp": {
 		"type": "image/webp",
@@ -338,6 +289,13 @@ var public_assets_data_default = {
 		"size": 321748,
 		"path": "../public/assets/14A.webp"
 	},
+	"/assets/12B.webp": {
+		"type": "image/webp",
+		"etag": "\"4b622-Q2v7TJsbEP5c1c5wvpioL6aYZ70\"",
+		"mtime": "2026-07-13T14:54:46.512Z",
+		"size": 308770,
+		"path": "../public/assets/12B.webp"
+	},
 	"/assets/14B.webp": {
 		"type": "image/webp",
 		"etag": "\"170c8-6+4dKtv3qWn4kDTBbCcDJnV36xg\"",
@@ -345,19 +303,19 @@ var public_assets_data_default = {
 		"size": 94408,
 		"path": "../public/assets/14B.webp"
 	},
-	"/assets/15A.webp": {
-		"type": "image/webp",
-		"etag": "\"7fb52-QsBo6c495ZHaIGKj63RSd5emKF0\"",
-		"mtime": "2026-07-13T14:54:51.721Z",
-		"size": 523090,
-		"path": "../public/assets/15A.webp"
-	},
 	"/assets/15B.webp": {
 		"type": "image/webp",
 		"etag": "\"217f8-0QVYkIu1gEF0l8XireotjNE0s1A\"",
 		"mtime": "2026-07-13T14:54:52.024Z",
 		"size": 137208,
 		"path": "../public/assets/15B.webp"
+	},
+	"/assets/15A.webp": {
+		"type": "image/webp",
+		"etag": "\"7fb52-QsBo6c495ZHaIGKj63RSd5emKF0\"",
+		"mtime": "2026-07-13T14:54:51.721Z",
+		"size": 523090,
+		"path": "../public/assets/15A.webp"
 	},
 	"/assets/15C.webp": {
 		"type": "image/webp",
@@ -390,7 +348,7 @@ var public_assets_data_default = {
 	"/assets/about-suOuFh9O.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"241d-MMnDIkiulG36UNgSaF+d8AxGTgY\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
+		"mtime": "2026-07-13T22:42:26.781Z",
 		"size": 9245,
 		"path": "../public/assets/about-suOuFh9O.js"
 	},
@@ -411,16 +369,9 @@ var public_assets_data_default = {
 	"/assets/arrow-left-D2cKDzTy.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"9a-FybXh3UkiEiws+ofq8KnyZqtAvM\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 154,
 		"path": "../public/assets/arrow-left-D2cKDzTy.js"
-	},
-	"/assets/Asafoetida.webp": {
-		"type": "image/webp",
-		"etag": "\"24c3c-HRIFxnYwUWFh06L7krPNYK5KGnI\"",
-		"mtime": "2026-07-13T14:54:59.348Z",
-		"size": 150588,
-		"path": "../public/assets/Asafoetida.webp"
 	},
 	"/assets/Bamboo Shoot Powder.webp": {
 		"type": "image/webp",
@@ -443,12 +394,26 @@ var public_assets_data_default = {
 		"size": 242330,
 		"path": "../public/assets/Black Cardamom.webp"
 	},
+	"/assets/Asafoetida.webp": {
+		"type": "image/webp",
+		"etag": "\"24c3c-HRIFxnYwUWFh06L7krPNYK5KGnI\"",
+		"mtime": "2026-07-13T14:54:59.348Z",
+		"size": 150588,
+		"path": "../public/assets/Asafoetida.webp"
+	},
 	"/assets/Black Pepper Powder.webp": {
 		"type": "image/webp",
 		"etag": "\"35fa2-l1/OwcyfKYh2WkriNtsdMkWNKcY\"",
 		"mtime": "2026-07-13T14:55:03.690Z",
 		"size": 221090,
 		"path": "../public/assets/Black Pepper Powder.webp"
+	},
+	"/assets/brand-B-vREtoI.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"7a9-ZK6F7uUCWok2UknrSAYc/t4aI24\"",
+		"mtime": "2026-07-13T22:42:26.786Z",
+		"size": 1961,
+		"path": "../public/assets/brand-B-vREtoI.js"
 	},
 	"/assets/Black Salt.webp": {
 		"type": "image/webp",
@@ -457,19 +422,47 @@ var public_assets_data_default = {
 		"size": 146646,
 		"path": "../public/assets/Black Salt.webp"
 	},
-	"/assets/brand-B-vREtoI.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"7a9-ZK6F7uUCWok2UknrSAYc/t4aI24\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
-		"size": 1961,
-		"path": "../public/assets/brand-B-vREtoI.js"
-	},
 	"/assets/Carom Seeds.webp": {
 		"type": "image/webp",
 		"etag": "\"3ce60-lnDYF8phJYj7gblZXPgFx5+q7M4\"",
 		"mtime": "2026-07-13T14:55:05.483Z",
 		"size": 249440,
 		"path": "../public/assets/Carom Seeds.webp"
+	},
+	"/assets/Cashews.webp": {
+		"type": "image/webp",
+		"etag": "\"16c38-7MTmyY5Ntf3SUJdm6KL2JwsPDc4\"",
+		"mtime": "2026-07-13T14:55:06.246Z",
+		"size": 93240,
+		"path": "../public/assets/Cashews.webp"
+	},
+	"/assets/check-mFD7HnOo.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"71-DRyQQz6Su3WZIw7R+0lx4WYSDOg\"",
+		"mtime": "2026-07-13T22:42:26.786Z",
+		"size": 113,
+		"path": "../public/assets/check-mFD7HnOo.js"
+	},
+	"/assets/Cheese.webp": {
+		"type": "image/webp",
+		"etag": "\"14bbc-fOv5Xd5L/9s44CtIaMXRp9Pr9uY\"",
+		"mtime": "2026-07-13T14:55:07.998Z",
+		"size": 84924,
+		"path": "../public/assets/Cheese.webp"
+	},
+	"/assets/Chaat Masala.webp": {
+		"type": "image/webp",
+		"etag": "\"3a7c0-A228JtQDz4KQPtEiruO5kfTc51c\"",
+		"mtime": "2026-07-13T14:55:07.241Z",
+		"size": 239552,
+		"path": "../public/assets/Chaat Masala.webp"
+	},
+	"/assets/05A.webp": {
+		"type": "image/webp",
+		"etag": "\"442df0-ZtLhkQuBZKsrXbOHfir13CiGumM\"",
+		"mtime": "2026-07-13T17:59:04.487Z",
+		"size": 4468208,
+		"path": "../public/assets/05A.webp"
 	},
 	"/assets/20A.webp": {
 		"type": "image/webp",
@@ -485,48 +478,6 @@ var public_assets_data_default = {
 		"size": 933666,
 		"path": "../public/assets/Black Cumin Seeds.webp"
 	},
-	"/assets/Cashews.webp": {
-		"type": "image/webp",
-		"etag": "\"16c38-7MTmyY5Ntf3SUJdm6KL2JwsPDc4\"",
-		"mtime": "2026-07-13T14:55:06.246Z",
-		"size": 93240,
-		"path": "../public/assets/Cashews.webp"
-	},
-	"/assets/Chaat Masala.webp": {
-		"type": "image/webp",
-		"etag": "\"3a7c0-A228JtQDz4KQPtEiruO5kfTc51c\"",
-		"mtime": "2026-07-13T14:55:07.241Z",
-		"size": 239552,
-		"path": "../public/assets/Chaat Masala.webp"
-	},
-	"/assets/check-mFD7HnOo.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"71-DRyQQz6Su3WZIw7R+0lx4WYSDOg\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
-		"size": 113,
-		"path": "../public/assets/check-mFD7HnOo.js"
-	},
-	"/assets/Cheese.webp": {
-		"type": "image/webp",
-		"etag": "\"14bbc-fOv5Xd5L/9s44CtIaMXRp9Pr9uY\"",
-		"mtime": "2026-07-13T14:55:07.998Z",
-		"size": 84924,
-		"path": "../public/assets/Cheese.webp"
-	},
-	"/assets/Black Cumin Seeds.png": {
-		"type": "image/png",
-		"etag": "\"185b72-vdj/BckEn9gE9X2I+B7sWGTRSro\"",
-		"mtime": "2026-07-13T17:51:16.465Z",
-		"size": 1596274,
-		"path": "../public/assets/Black Cumin Seeds.png"
-	},
-	"/assets/05A.webp": {
-		"type": "image/webp",
-		"etag": "\"442df0-ZtLhkQuBZKsrXbOHfir13CiGumM\"",
-		"mtime": "2026-07-13T17:59:04.487Z",
-		"size": 4468208,
-		"path": "../public/assets/05A.webp"
-	},
 	"/assets/Cinnamon.webp": {
 		"type": "image/webp",
 		"etag": "\"2d8c0-DdRijygZN05fcpfLH9xI0Qqv44o\"",
@@ -541,10 +492,17 @@ var public_assets_data_default = {
 		"size": 253876,
 		"path": "../public/assets/Cloves.webp"
 	},
+	"/assets/Black Cumin Seeds.png": {
+		"type": "image/png",
+		"etag": "\"185b72-vdj/BckEn9gE9X2I+B7sWGTRSro\"",
+		"mtime": "2026-07-13T17:51:16.465Z",
+		"size": 1596274,
+		"path": "../public/assets/Black Cumin Seeds.png"
+	},
 	"/assets/contact-98FMZ2QB.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"e26-ze74qcrbhyTUGyYfQ6K2yCWBs/0\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 3622,
 		"path": "../public/assets/contact-98FMZ2QB.js"
 	},
@@ -562,13 +520,6 @@ var public_assets_data_default = {
 		"size": 219794,
 		"path": "../public/assets/Coriander Seeds.webp"
 	},
-	"/assets/Curd.webp": {
-		"type": "image/webp",
-		"etag": "\"bcea-5HV0GdC2/gaZcTPPJ5D8xJ8Pr5M\"",
-		"mtime": "2026-07-13T14:55:15.647Z",
-		"size": 48362,
-		"path": "../public/assets/Curd.webp"
-	},
 	"/assets/Cumin Powder.webp": {
 		"type": "image/webp",
 		"etag": "\"34362-zf4wC1DW4RydL4BWKbTgt0p2+3A\"",
@@ -576,12 +527,12 @@ var public_assets_data_default = {
 		"size": 213858,
 		"path": "../public/assets/Cumin Powder.webp"
 	},
-	"/assets/Curry Leaves.webp": {
+	"/assets/Curd.webp": {
 		"type": "image/webp",
-		"etag": "\"1e5a2-TJ+mSti0zYN9czcIEbAIWnfPgFA\"",
-		"mtime": "2026-07-13T14:55:16.476Z",
-		"size": 124322,
-		"path": "../public/assets/Curry Leaves.webp"
+		"etag": "\"bcea-5HV0GdC2/gaZcTPPJ5D8xJ8Pr5M\"",
+		"mtime": "2026-07-13T14:55:15.647Z",
+		"size": 48362,
+		"path": "../public/assets/Curd.webp"
 	},
 	"/assets/Cumin Seeds.webp": {
 		"type": "image/webp",
@@ -590,12 +541,12 @@ var public_assets_data_default = {
 		"size": 306340,
 		"path": "../public/assets/Cumin Seeds.webp"
 	},
-	"/assets/Curry Powder.webp": {
+	"/assets/Curry Leaves.webp": {
 		"type": "image/webp",
-		"etag": "\"37c3a-KphKog2jq1z5xJktC2hA0o8KmMQ\"",
-		"mtime": "2026-07-13T14:55:17.430Z",
-		"size": 228410,
-		"path": "../public/assets/Curry Powder.webp"
+		"etag": "\"1e5a2-TJ+mSti0zYN9czcIEbAIWnfPgFA\"",
+		"mtime": "2026-07-13T14:55:16.476Z",
+		"size": 124322,
+		"path": "../public/assets/Curry Leaves.webp"
 	},
 	"/assets/Dried Fenugreek Leaves.webp": {
 		"type": "image/webp",
@@ -603,6 +554,27 @@ var public_assets_data_default = {
 		"mtime": "2026-07-13T14:55:18.218Z",
 		"size": 129480,
 		"path": "../public/assets/Dried Fenugreek Leaves.webp"
+	},
+	"/assets/Curry Powder.webp": {
+		"type": "image/webp",
+		"etag": "\"37c3a-KphKog2jq1z5xJktC2hA0o8KmMQ\"",
+		"mtime": "2026-07-13T14:55:17.430Z",
+		"size": 228410,
+		"path": "../public/assets/Curry Powder.webp"
+	},
+	"/assets/export-inquiries-78DduEd8.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"2115-fnVtGAN26gHkv8aveQN7wAZ868k\"",
+		"mtime": "2026-07-13T22:42:26.786Z",
+		"size": 8469,
+		"path": "../public/assets/export-inquiries-78DduEd8.js"
+	},
+	"/assets/FDA-Emblem-logo.webp": {
+		"type": "image/webp",
+		"etag": "\"9e42-d3lV0jNxdxcD48AfaQNh6Fzwprk\"",
+		"mtime": "2026-07-13T14:55:26.831Z",
+		"size": 40514,
+		"path": "../public/assets/FDA-Emblem-logo.webp"
 	},
 	"/assets/Dried Ginger.webp": {
 		"type": "image/webp",
@@ -618,26 +590,12 @@ var public_assets_data_default = {
 		"size": 195206,
 		"path": "../public/assets/Dry Mango Powder.webp"
 	},
-	"/assets/export-inquiries-78DduEd8.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2115-fnVtGAN26gHkv8aveQN7wAZ868k\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
-		"size": 8469,
-		"path": "../public/assets/export-inquiries-78DduEd8.js"
-	},
-	"/assets/FDA-Emblem-logo.webp": {
+	"/assets/Foxnut.webp": {
 		"type": "image/webp",
-		"etag": "\"9e42-d3lV0jNxdxcD48AfaQNh6Fzwprk\"",
-		"mtime": "2026-07-13T14:55:26.831Z",
-		"size": 40514,
-		"path": "../public/assets/FDA-Emblem-logo.webp"
-	},
-	"/assets/Fenugrek Seeds.webp": {
-		"type": "image/webp",
-		"etag": "\"2a118-u4KqzpUHeH4DOebM+Wb3b6NnJK0\"",
-		"mtime": "2026-07-13T14:55:28.727Z",
-		"size": 172312,
-		"path": "../public/assets/Fenugrek Seeds.webp"
+		"etag": "\"15ede-oOtp+q7Uu3Gei2N8r74doDPQsHc\"",
+		"mtime": "2026-07-13T14:55:29.411Z",
+		"size": 89822,
+		"path": "../public/assets/Foxnut.webp"
 	},
 	"/assets/Fennel Seeds.webp": {
 		"type": "image/webp",
@@ -646,12 +604,12 @@ var public_assets_data_default = {
 		"size": 231532,
 		"path": "../public/assets/Fennel Seeds.webp"
 	},
-	"/assets/Foxnut.webp": {
+	"/assets/Fenugrek Seeds.webp": {
 		"type": "image/webp",
-		"etag": "\"15ede-oOtp+q7Uu3Gei2N8r74doDPQsHc\"",
-		"mtime": "2026-07-13T14:55:29.411Z",
-		"size": 89822,
-		"path": "../public/assets/Foxnut.webp"
+		"etag": "\"2a118-u4KqzpUHeH4DOebM+Wb3b6NnJK0\"",
+		"mtime": "2026-07-13T14:55:28.727Z",
+		"size": 172312,
+		"path": "../public/assets/Fenugrek Seeds.webp"
 	},
 	"/assets/FSSAI Logo.webp": {
 		"type": "image/webp",
@@ -688,12 +646,33 @@ var public_assets_data_default = {
 		"size": 255016,
 		"path": "../public/assets/Green Cardamom.webp"
 	},
+	"/assets/05A.png": {
+		"type": "image/png",
+		"etag": "\"7565ab-4GohFY/ylXiTnOlZE61QPIuqupo\"",
+		"mtime": "2026-07-13T17:44:09.277Z",
+		"size": 7693739,
+		"path": "../public/assets/05A.png"
+	},
+	"/assets/Chia Seeds.webp": {
+		"type": "image/webp",
+		"etag": "\"331a22-GFYjo+7qqXPXwTzOljXdBLE+BGo\"",
+		"mtime": "2026-07-13T17:58:46.488Z",
+		"size": 3349026,
+		"path": "../public/assets/Chia Seeds.webp"
+	},
 	"/assets/index-PTugdkvS.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"654d-iQIovGZuRnxkHQvmCFeuKSU/Lxw\"",
-		"mtime": "2026-07-13T22:37:27.277Z",
+		"mtime": "2026-07-13T22:42:26.794Z",
 		"size": 25933,
 		"path": "../public/assets/index-PTugdkvS.css"
+	},
+	"/assets/jsx-runtime-D8nDyRPw.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"2210-qrBAUPDOR8ROKpBVNEla8AGnGKU\"",
+		"mtime": "2026-07-13T22:42:26.786Z",
+		"size": 8720,
+		"path": "../public/assets/jsx-runtime-D8nDyRPw.js"
 	},
 	"/assets/ISO Logo.webp": {
 		"type": "image/webp",
@@ -701,13 +680,6 @@ var public_assets_data_default = {
 		"mtime": "2026-07-13T14:55:46.521Z",
 		"size": 68240,
 		"path": "../public/assets/ISO Logo.webp"
-	},
-	"/assets/jsx-runtime-D8nDyRPw.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"2210-qrBAUPDOR8ROKpBVNEla8AGnGKU\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
-		"size": 8720,
-		"path": "../public/assets/jsx-runtime-D8nDyRPw.js"
 	},
 	"/assets/Kokum.webp": {
 		"type": "image/webp",
@@ -719,9 +691,16 @@ var public_assets_data_default = {
 	"/assets/link-BIDXvZM8.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"5b4c-iVm6i5LCkUCKZAaKgCJPhS6imrA\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 23372,
 		"path": "../public/assets/link-BIDXvZM8.js"
+	},
+	"/assets/message-circle-D7hoGjQX.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"e6-VsRGCwLuhPTMsk0/rMb8/sa5XRI\"",
+		"mtime": "2026-07-13T22:42:26.786Z",
+		"size": 230,
+		"path": "../public/assets/message-circle-D7hoGjQX.js"
 	},
 	"/assets/Mace.webp": {
 		"type": "image/webp",
@@ -730,19 +709,12 @@ var public_assets_data_default = {
 		"size": 202608,
 		"path": "../public/assets/Mace.webp"
 	},
-	"/assets/message-circle-D7hoGjQX.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"e6-VsRGCwLuhPTMsk0/rMb8/sa5XRI\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
-		"size": 230,
-		"path": "../public/assets/message-circle-D7hoGjQX.js"
-	},
-	"/assets/index-D5BPseub.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"84f5e-VfeXMwZMb1R0gbCb4lhhKIUfQ9I\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
-		"size": 544606,
-		"path": "../public/assets/index-D5BPseub.js"
+	"/assets/Multicolor Icon.webp": {
+		"type": "image/webp",
+		"etag": "\"dc12-uvpGuEqc/ZmiaFSdeFydiYo7DEE\"",
+		"mtime": "2026-07-13T14:56:02.699Z",
+		"size": 56338,
+		"path": "../public/assets/Multicolor Icon.webp"
 	},
 	"/assets/Multicolor 3x1 Logo.webp": {
 		"type": "image/webp",
@@ -751,26 +723,12 @@ var public_assets_data_default = {
 		"size": 248060,
 		"path": "../public/assets/Multicolor 3x1 Logo.webp"
 	},
-	"/assets/Multicolor Icon.webp": {
-		"type": "image/webp",
-		"etag": "\"dc12-uvpGuEqc/ZmiaFSdeFydiYo7DEE\"",
-		"mtime": "2026-07-13T14:56:02.699Z",
-		"size": 56338,
-		"path": "../public/assets/Multicolor Icon.webp"
-	},
 	"/assets/Multicolor Round Logo.webp": {
 		"type": "image/webp",
 		"etag": "\"a53c-XWeazQiuHaqvxYAPAtLQTgts6y4\"",
 		"mtime": "2026-07-13T14:56:09.710Z",
 		"size": 42300,
 		"path": "../public/assets/Multicolor Round Logo.webp"
-	},
-	"/assets/05A.png": {
-		"type": "image/png",
-		"etag": "\"7565ab-4GohFY/ylXiTnOlZE61QPIuqupo\"",
-		"mtime": "2026-07-13T17:44:09.277Z",
-		"size": 7693739,
-		"path": "../public/assets/05A.png"
 	},
 	"/assets/Multicolor Square Logo.webp": {
 		"type": "image/webp",
@@ -779,12 +737,12 @@ var public_assets_data_default = {
 		"size": 91e3,
 		"path": "../public/assets/Multicolor Square Logo.webp"
 	},
-	"/assets/Chia Seeds.webp": {
-		"type": "image/webp",
-		"etag": "\"331a22-GFYjo+7qqXPXwTzOljXdBLE+BGo\"",
-		"mtime": "2026-07-13T17:58:46.488Z",
-		"size": 3349026,
-		"path": "../public/assets/Chia Seeds.webp"
+	"/assets/index-D5BPseub.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"84f5e-VfeXMwZMb1R0gbCb4lhhKIUfQ9I\"",
+		"mtime": "2026-07-13T22:42:26.781Z",
+		"size": 544606,
+		"path": "../public/assets/index-D5BPseub.js"
 	},
 	"/assets/Mustard Seeds.webp": {
 		"type": "image/webp",
@@ -845,49 +803,42 @@ var public_assets_data_default = {
 	"/assets/product._slug-BYLDBfQW.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"1ed-rhzTjPJocGBu8dCh/hdNh/TRUdQ\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 493,
 		"path": "../public/assets/product._slug-BYLDBfQW.js"
 	},
 	"/assets/product._slug-CF2X3mdZ.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"2266-tz3OEwEGgWEFWyXrPG6BPjRy6+c\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 8806,
 		"path": "../public/assets/product._slug-CF2X3mdZ.js"
 	},
 	"/assets/ProductCard-BrHtcPTq.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"58a-Dz76k8Xtt5CW2LTVUlkXKSwE4vw\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
+		"mtime": "2026-07-13T22:42:26.781Z",
 		"size": 1418,
 		"path": "../public/assets/ProductCard-BrHtcPTq.js"
 	},
 	"/assets/products.index-DS_V7da5.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"1b8f-d7nLQfeJRLXrX+m3zirHOFYk4Po\"",
-		"mtime": "2026-07-13T22:37:27.277Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 7055,
 		"path": "../public/assets/products.index-DS_V7da5.js"
-	},
-	"/assets/Honey.webp": {
-		"type": "image/webp",
-		"etag": "\"2f8126-vy65ZgEXgMmJmjkWiT61WW1W5wM\"",
-		"mtime": "2026-07-13T18:48:40.857Z",
-		"size": 3113254,
-		"path": "../public/assets/Honey.webp"
 	},
 	"/assets/products._category-BjnoWkBt.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"a02-RLZ0Z8QhdtSc3YZS7zVX+Hmm7vo\"",
-		"mtime": "2026-07-13T22:37:27.277Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 2562,
 		"path": "../public/assets/products._category-BjnoWkBt.js"
 	},
 	"/assets/products._category-DQm1YZjY.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"1ee-7n3s1NSiwOjMp4yS1rVHkhpBZiE\"",
-		"mtime": "2026-07-13T22:37:27.277Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 494,
 		"path": "../public/assets/products._category-DQm1YZjY.js"
 	},
@@ -901,7 +852,7 @@ var public_assets_data_default = {
 	"/assets/react-dom-CrK8yE57.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"dda-TYAl7GnUPUCbV+AVNcbJobxY8L4\"",
-		"mtime": "2026-07-13T22:37:27.277Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 3546,
 		"path": "../public/assets/react-dom-CrK8yE57.js"
 	},
@@ -912,10 +863,17 @@ var public_assets_data_default = {
 		"size": 206322,
 		"path": "../public/assets/Red Chilli Powder.webp"
 	},
+	"/assets/Chia Seeds.png": {
+		"type": "image/png",
+		"etag": "\"5b5d1b-zl6O3PnDWYaghWF3+/XhpfCEZ6w\"",
+		"mtime": "2026-07-13T17:41:57.619Z",
+		"size": 5987611,
+		"path": "../public/assets/Chia Seeds.png"
+	},
 	"/assets/Reveal-B5FlXgoM.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"233-qlnldQ0UQpoVhvhj7RlhC32ACJw\"",
-		"mtime": "2026-07-13T22:37:27.262Z",
+		"mtime": "2026-07-13T22:42:26.781Z",
 		"size": 563,
 		"path": "../public/assets/Reveal-B5FlXgoM.js"
 	},
@@ -926,24 +884,17 @@ var public_assets_data_default = {
 		"size": 113894,
 		"path": "../public/assets/Rock Salt.webp"
 	},
-	"/assets/Chia Seeds.png": {
-		"type": "image/png",
-		"etag": "\"5b5d1b-zl6O3PnDWYaghWF3+/XhpfCEZ6w\"",
-		"mtime": "2026-07-13T17:41:57.619Z",
-		"size": 5987611,
-		"path": "../public/assets/Chia Seeds.png"
-	},
-	"/assets/Mamra Almonds.webp": {
+	"/assets/Honey.webp": {
 		"type": "image/webp",
-		"etag": "\"33a95e-Q51l8ksrjP1jyNw0VW5QloNsacQ\"",
-		"mtime": "2026-07-13T17:58:52.245Z",
-		"size": 3385694,
-		"path": "../public/assets/Mamra Almonds.webp"
+		"etag": "\"2f8126-vy65ZgEXgMmJmjkWiT61WW1W5wM\"",
+		"mtime": "2026-07-13T18:48:40.857Z",
+		"size": 3113254,
+		"path": "../public/assets/Honey.webp"
 	},
 	"/assets/routes-qJcamGMT.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"b031-gTGSaRQiWwkqSY0iYTFbyLpzVFI\"",
-		"mtime": "2026-07-13T22:37:27.277Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 45105,
 		"path": "../public/assets/routes-qJcamGMT.js"
 	},
@@ -957,9 +908,16 @@ var public_assets_data_default = {
 	"/assets/select-CfSBciQ8.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"136e7-j0Qubih836YdOzumtDtv5GXFvFY\"",
-		"mtime": "2026-07-13T22:37:27.277Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 79591,
 		"path": "../public/assets/select-CfSBciQ8.js"
+	},
+	"/assets/Mamra Almonds.webp": {
+		"type": "image/webp",
+		"etag": "\"33a95e-Q51l8ksrjP1jyNw0VW5QloNsacQ\"",
+		"mtime": "2026-07-13T17:58:52.245Z",
+		"size": 3385694,
+		"path": "../public/assets/Mamra Almonds.webp"
 	},
 	"/assets/Sesame Seeds.webp": {
 		"type": "image/webp",
@@ -971,16 +929,9 @@ var public_assets_data_default = {
 	"/assets/ship-BeDZhu4K.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"414-/69d4R2QKlMloc2phVnldCKtMYY\"",
-		"mtime": "2026-07-13T22:37:27.277Z",
+		"mtime": "2026-07-13T22:42:26.786Z",
 		"size": 1044,
 		"path": "../public/assets/ship-BeDZhu4K.js"
-	},
-	"/assets/Spice Board Logo.webp": {
-		"type": "image/webp",
-		"etag": "\"cb96-01kGrUGiJiLplr1Jg2onuByNX3M\"",
-		"mtime": "2026-07-13T14:56:39.489Z",
-		"size": 52118,
-		"path": "../public/assets/Spice Board Logo.webp"
 	},
 	"/assets/Star Anise.webp": {
 		"type": "image/webp",
@@ -992,7 +943,7 @@ var public_assets_data_default = {
 	"/assets/styles-Cy9CnqgT.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"19043-GzjNm9n4U/5bik82sdi9RJmystg\"",
-		"mtime": "2026-07-13T22:37:27.277Z",
+		"mtime": "2026-07-13T22:42:26.794Z",
 		"size": 102467,
 		"path": "../public/assets/styles-Cy9CnqgT.css"
 	},
@@ -1003,12 +954,12 @@ var public_assets_data_default = {
 		"size": 187088,
 		"path": "../public/assets/Tamarind.webp"
 	},
-	"/assets/Long Pepper.webp": {
+	"/assets/Spice Board Logo.webp": {
 		"type": "image/webp",
-		"etag": "\"41fa84-zgNYwLIo2EhFTBOZTbH09jtmbvs\"",
-		"mtime": "2026-07-13T17:59:14.938Z",
-		"size": 4323972,
-		"path": "../public/assets/Long Pepper.webp"
+		"etag": "\"cb96-01kGrUGiJiLplr1Jg2onuByNX3M\"",
+		"mtime": "2026-07-13T14:56:39.489Z",
+		"size": 52118,
+		"path": "../public/assets/Spice Board Logo.webp"
 	},
 	"/assets/Turmeric Powder.webp": {
 		"type": "image/webp",
@@ -1052,12 +1003,12 @@ var public_assets_data_default = {
 		"size": 86936,
 		"path": "../public/assets/White Icon.webp"
 	},
-	"/assets/Honey.png": {
-		"type": "image/png",
-		"etag": "\"55552a-kLN63JcHKlFJXKz5AWrB9qD2wJo\"",
-		"mtime": "2026-07-13T18:29:49.708Z",
-		"size": 5592362,
-		"path": "../public/assets/Honey.png"
+	"/assets/Long Pepper.webp": {
+		"type": "image/webp",
+		"etag": "\"41fa84-zgNYwLIo2EhFTBOZTbH09jtmbvs\"",
+		"mtime": "2026-07-13T17:59:14.938Z",
+		"size": 4323972,
+		"path": "../public/assets/Long Pepper.webp"
 	},
 	"/assets/White Round logo.webp": {
 		"type": "image/webp",
@@ -1073,6 +1024,62 @@ var public_assets_data_default = {
 		"size": 56018,
 		"path": "../public/assets/White Square logo.webp"
 	},
+	"/favicons/apple-touch-icon.png": {
+		"type": "image/png",
+		"etag": "\"715b-BZ4S0fg/JM81EWJTtxHW6y2atBM\"",
+		"mtime": "2026-07-13T17:58:22.901Z",
+		"size": 29019,
+		"path": "../public/favicons/apple-touch-icon.png"
+	},
+	"/favicons/favicon-96x96.png": {
+		"type": "image/png",
+		"etag": "\"3986-kAoK/r3qyCSVkOT8bTeB1z1/k2I\"",
+		"mtime": "2026-07-13T17:58:22.096Z",
+		"size": 14726,
+		"path": "../public/favicons/favicon-96x96.png"
+	},
+	"/favicons/favicon.ico": {
+		"type": "image/vnd.microsoft.icon",
+		"etag": "\"3aee-mMQ2YzkO4fracnbgVseGfVCtRt4\"",
+		"mtime": "2026-07-13T17:58:22.468Z",
+		"size": 15086,
+		"path": "../public/favicons/favicon.ico"
+	},
+	"/favicons/site.webmanifest": {
+		"type": "application/manifest+json",
+		"etag": "\"223-og9GeHqAlXXQP5JH0lAS9mptRHg\"",
+		"mtime": "2026-07-13T18:18:54.240Z",
+		"size": 547,
+		"path": "../public/favicons/site.webmanifest"
+	},
+	"/favicons/web-app-manifest-192x192.png": {
+		"type": "image/png",
+		"etag": "\"a892-OMxF+cubPB1e2IxiG6Pv22VPe84\"",
+		"mtime": "2026-07-13T17:58:23.311Z",
+		"size": 43154,
+		"path": "../public/favicons/web-app-manifest-192x192.png"
+	},
+	"/assets/Honey.png": {
+		"type": "image/png",
+		"etag": "\"55552a-kLN63JcHKlFJXKz5AWrB9qD2wJo\"",
+		"mtime": "2026-07-13T18:29:49.708Z",
+		"size": 5592362,
+		"path": "../public/assets/Honey.png"
+	},
+	"/favicons/web-app-manifest-512x512.png": {
+		"type": "image/png",
+		"etag": "\"33c08-4OLtNMu6qpKfgZr1n37i2ZT54co\"",
+		"mtime": "2026-07-13T17:58:24.674Z",
+		"size": 211976,
+		"path": "../public/favicons/web-app-manifest-512x512.png"
+	},
+	"/assets/Mamra Almonds.png": {
+		"type": "image/png",
+		"etag": "\"5b3651-zGGbk8c0c7XPz+TJvuFj+ve7OVY\"",
+		"mtime": "2026-07-13T17:49:11.995Z",
+		"size": 5977681,
+		"path": "../public/assets/Mamra Almonds.png"
+	},
 	"/.well-known/agent-skills/index.json": {
 		"type": "application/json",
 		"etag": "\"161-8PRUiNSaERlC5J2rfIgiOjRYzTU\"",
@@ -1087,12 +1094,12 @@ var public_assets_data_default = {
 		"size": 314,
 		"path": "../public/.well-known/mcp/server-card.json"
 	},
-	"/assets/Mamra Almonds.png": {
-		"type": "image/png",
-		"etag": "\"5b3651-zGGbk8c0c7XPz+TJvuFj+ve7OVY\"",
-		"mtime": "2026-07-13T17:49:11.995Z",
-		"size": 5977681,
-		"path": "../public/assets/Mamra Almonds.png"
+	"/favicons/favicon.svg": {
+		"type": "image/svg+xml",
+		"etag": "\"113a3b-4RsEayQ+8fcfT5GMFjBqrZTZxtM\"",
+		"mtime": "2026-07-13T17:58:20.539Z",
+		"size": 1129019,
+		"path": "../public/favicons/favicon.svg"
 	},
 	"/assets/Long Pepper.png": {
 		"type": "image/png",
