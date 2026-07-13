@@ -30,7 +30,7 @@ function Home() {
 
   const featured = [
     "green-cardamom", "saffron", "turmeric-powder", "red-chilli-powder",
-    "black-cardamom", "mamra-almonds", "garam-masala", "foxnut",
+    "black-cardamom", "mamra-almonds", "garam-masala", "foxnut", "honey"
   ].map((s) => PRODUCTS.find((p) => p.slug === s)!).filter(Boolean);
 
   return (
