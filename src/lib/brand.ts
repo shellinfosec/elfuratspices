@@ -1,8 +1,8 @@
-﻿export const BRAND = {
+export const BRAND = {
   name: "Elfurat Spices",
   domain: "elfuratspices.com",
-  phones: ["+91 78382 63460", "+91 70119 21692"],
-  whatsapp: "917838263460", // primary, digits only for wa.me
+  phones: ["+91 70119 21692"],
+  whatsapp: "917011921692", // primary, digits only for wa.me
   emails: ["abdullah@elfuratspices.com", "yunus@elfuratspices.com"],
   address:
     "RZ-3285 Third Floor, Gali No-37, Tughlakabad Extn, Near Shahi Public School, Kalkaji, South Delhi, India 110019",

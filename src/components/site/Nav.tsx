@@ -180,11 +180,11 @@ export function Nav() {
 
         <div className="hidden md:flex items-center gap-2">
           <a
-            href="tel:+917838263460"
+            href="tel:+917011921692"
             className={`hidden lg:inline-flex items-center gap-2 text-sm font-medium ${textColor} ${textHover} transition-colors duration-500`}
           >
             <Phone className="h-4 w-4" />
-            +91 78382 63460
+            +91 70119 21692
           </a>
           <Link
             to="/export-inquiries"

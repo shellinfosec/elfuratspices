@@ -37,7 +37,7 @@ const ORG_JSONLD = {
   },
   contactPoint: [{
     "@type": "ContactPoint",
-    telephone: "+91-78382-63460",
+    telephone: "+91-70119-21692",
     contactType: "sales",
     areaServed: "Worldwide",
     availableLanguage: ["English", "Hindi"],
