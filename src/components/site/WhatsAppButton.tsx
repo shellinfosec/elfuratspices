@@ -1,7 +1,7 @@
-import { waUrl } from "@/lib/brand";
+﻿import { waUrl } from "@/lib/brand";
 import { motion } from "framer-motion";
 
-const WA_ICON = "https://shellinfosec.in/wp-content/uploads/2026/07/whatsapp.png";
+const WA_ICON = "https://shellinfosec.in/wp-content/uploads/2026/07/whatsapp.webp";
 
 export function WhatsAppFloat() {
   return (
@@ -26,3 +26,4 @@ export function WhatsAppFloat() {
 export function WhatsAppIcon({ className = "h-5 w-5" }: { className?: string }) {
   return <img src={WA_ICON} alt="WhatsApp" className={className} loading="lazy" />;
 }
+

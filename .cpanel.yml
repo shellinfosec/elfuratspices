@@ -1,7 +1,7 @@
-﻿---
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/elfuratspices/public_html
-    - /bin/cp -R dist/* $DEPLOYPATH/
+    - /bin/cp -a dist/. $DEPLOYPATH/
     - /bin/cp cpanel-start.cjs $DEPLOYPATH/
     - /bin/cp .htaccess $DEPLOYPATH/

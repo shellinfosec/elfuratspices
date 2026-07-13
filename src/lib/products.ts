@@ -1,4 +1,4 @@
-import { CDN } from "./brand";
+﻿import { CDN } from "./brand";
 
 export type Category = {
   slug: string;
@@ -29,7 +29,7 @@ export const CATEGORIES: Category[] = [
     tagline: "Hand-selected, sun-dried, and export-graded.",
     description:
       "Single-origin whole spices sourced from India's finest growing belts. Cleaned, graded, and packed to preserve essential oil content for maximum aroma and shelf life.",
-    hero: `${CDN}/05A.png`,
+    hero: `${CDN}/05A.webp`,
   },
   {
     slug: "ground-spices",
@@ -37,7 +37,7 @@ export const CATEGORIES: Category[] = [
     tagline: "Cold-milled powders with lab-verified color values.",
     description:
       "Precision-milled powders with consistent granulometry, natural color, and rich flavor profile. Ideal for retail packaging and industrial food manufacturing.",
-    hero: `${CDN}/06D.png`,
+    hero: `${CDN}/06D.webp`,
   },
   {
     slug: "masala-blends",
@@ -45,7 +45,7 @@ export const CATEGORIES: Category[] = [
     tagline: "Signature Indian recipes, formulated for global palates.",
     description:
       "Master-blended by seasoned formulators, our masalas deliver a repeatable, authentic Indian taste - from Chaat to Garam Masala.",
-    hero: `${CDN}/06D.png`,
+    hero: `${CDN}/06D.webp`,
   },
   {
     slug: "aromatics",
@@ -53,7 +53,7 @@ export const CATEGORIES: Category[] = [
     tagline: "Fragrant leaves, seeds, and specialty botanicals.",
     description:
       "A curated shelf of niche aromatics - from Bay Leaves to Kokum - sourced from indigenous belts across India.",
-    hero: `${CDN}/07A.png`,
+    hero: `${CDN}/07A.webp`,
   },
   {
     slug: "nuts",
@@ -61,7 +61,7 @@ export const CATEGORIES: Category[] = [
     tagline: "Premium kernels, calibrated and lot-coded.",
     description:
       "Grade A almonds, cashews, walnuts, and pistachios - export packed with vacuum and nitrogen options to retain freshness.",
-    hero: `${CDN}/11A.png`,
+    hero: `${CDN}/11A.webp`,
   },
   {
     slug: "dried-fruits-seeds",
@@ -69,7 +69,7 @@ export const CATEGORIES: Category[] = [
     tagline: "Wellness-grade functional foods.",
     description:
       "Premium dried fruits, functional seeds, and superfood ingredients for HORECA and retail channels.",
-    hero: `${CDN}/12A.png`,
+    hero: `${CDN}/12A.webp`,
   },
   {
     slug: "makhana",
@@ -77,7 +77,7 @@ export const CATEGORIES: Category[] = [
     tagline: "Bihar-sourced, hand-popped fox nuts.",
     description:
       "Puffed, sorted, and grade-tested makhana - plain and roasted variants ready for retail SKUs.",
-    hero: `${CDN}/13A.png`,
+    hero: `${CDN}/13A.webp`,
   },
   {
     slug: "dairy-staples",
@@ -85,11 +85,11 @@ export const CATEGORIES: Category[] = [
     tagline: "Complementary pantry staples.",
     description:
       "Pure ghee, paneer, cheese, and curd - dairy staples produced under HACCP certified units.",
-    hero: `${CDN}/14A.png`,
+    hero: `${CDN}/14A.webp`,
   },
 ];
 
-const img = (name: string) => `${CDN}/${encodeURIComponent(name)}.png`;
+const img = (name: string) => `${CDN}/${encodeURIComponent(name)}.webp`;
 
 const P = (
   slug: string,
@@ -268,3 +268,4 @@ export function getCategory(slug: string) {
 export function getProduct(slug: string) {
   return PRODUCTS.find((p) => p.slug === slug);
 }
+

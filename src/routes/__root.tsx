@@ -1,4 +1,4 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+﻿import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
   createRootRouteWithContext,
@@ -24,7 +24,7 @@ const ORG_JSONLD = {
   "@type": "Organization",
   name: "Elfurat Spices",
   url: "https://elfuratspices.com",
-  logo: "https://elfuratspices.com/assets/Multicolor%203x1%20Logo.png",
+  logo: "https://elfuratspices.com/assets/Multicolor%203x1%20Logo.webp",
   description:
     "Global exporter of premium Indian spices, aromatics, nuts and pantry staples to 40+ countries.",
   address: {
@@ -139,7 +139,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/7a330b53-5aac-4538-8968-df746bc4d792" },
     ],
     links: [
-      { rel: "icon", href: "/assets/Multicolor%20Icon.png" },
+      { rel: "icon", href: "/assets/Multicolor%20Icon.webp" },
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
@@ -196,3 +196,4 @@ function RootComponent() {
     </QueryClientProvider>
   );
 }
+
