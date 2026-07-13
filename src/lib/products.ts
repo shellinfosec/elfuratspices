@@ -1,4 +1,4 @@
-﻿import { CDN } from "./brand";
+import { CDN } from "./brand";
 
 export type Category = {
   slug: string;
@@ -251,6 +251,8 @@ export const PRODUCTS: Product[] = [
   // Dairy & staples
   P("pure-ghee", "Pure Cow Ghee", "dairy-staples", "Pure Ghee", "Haryana & Punjab",
     "Traditional bilona-method cow ghee - granular texture, rich caramel aroma.", { form: "Ghee" }),
+  P("honey", "Honey", "dairy-staples", "Honey", "India",
+    "100% Natural, Raw & Unadulterated Honey. FSSAI Certified. Varieties available: Jamun Honey, Lychee Honey, Eucalyptus Honey, Mustard Honey.", { form: "Liquid" }),
   P("paneer", "Paneer", "dairy-staples", "Paneer", "India",
     "Fresh farm paneer - firm bite, high protein.", { form: "Fresh" }),
   P("cheese", "Cheese", "dairy-staples", "Cheese", "India",
