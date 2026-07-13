@@ -188,6 +188,15 @@ function RootComponent() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(WEBSITE_JSONLD) }}
       />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/sw.js');
+            });
+          }`,
+        }}
+      />
       <SmoothScroll />
       <AosInit />
       <Preloader />

@@ -49,6 +49,17 @@ export function Nav() {
     setProductsOpen(false);
   }, [pathname]);
 
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [open]);
+
   const onDarkHero = isDarkHeroPage && !scrolled;
 
   // dynamic text/logo color
@@ -207,20 +218,20 @@ export function Nav() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-              className="absolute top-0 right-0 bottom-0 w-[85vw] max-w-sm bg-surface p-6 shadow-2xl overflow-y-auto"
+              className="absolute top-0 right-0 bottom-0 w-[85vw] max-w-sm bg-surface p-6 shadow-2xl flex flex-col"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="flex items-center justify-between mb-8">
-                <div className="h-7 w-auto"><Image src={LOGOS.color3x1} alt="Elfurat Spices" className="object-contain" /></div>
+              <div className="flex items-center justify-between mb-6 shrink-0">
+                <div className="h-6 w-auto"><Image src={LOGOS.color3x1} alt="Elfurat Spices" className="h-full w-auto object-contain" /></div>
                 <button
                   onClick={() => setOpen(false)}
-                  className="rounded-full bg-black/5 p-2 text-clove"
+                  className="rounded-full bg-black/5 p-2 text-clove shrink-0 ml-4"
                 >
                   <X className="h-5 w-5" />
                 </button>
               </div>
 
-              <nav className="flex flex-col gap-2">
+              <nav className="flex-1 overflow-y-auto flex flex-col gap-2 -mx-2 px-2 pb-6">
                 {LINKS.map((l) => (
                   <div key={l.to}>
                     {l.hasDropdown ? (
@@ -248,7 +259,7 @@ export function Nav() {
                                     params={{ category: c.slug }}
                                     className="flex items-center gap-3 rounded-2xl p-2 hover:bg-terracotta/10 transition-colors"
                                   >
-                                    <div className="h-10 w-10 shrink-0"><Image src={c.hero} alt={c.name} className="rounded-xl" /></div>
+                                    <div className="h-10 w-10 shrink-0"><Image src={c.hero} alt={c.name} className="h-full w-full object-cover rounded-xl" /></div>
                                     <div className="min-w-0">
                                       <div className="text-sm font-semibold text-clove truncate">{c.name}</div>
                                       <div className="text-[10px] text-clove/60 truncate">{c.tagline}</div>
@@ -278,14 +289,16 @@ export function Nav() {
                     )}
                   </div>
                 ))}
-                
+              </nav>
+
+              <div className="shrink-0 pt-4 mt-auto">
                 <Link
                   to="/export-inquiries"
-                  className="mt-6 flex items-center justify-center rounded-full bg-terracotta px-5 py-4 text-sm font-semibold text-white transition-transform active:scale-95"
+                  className="flex w-full items-center justify-center rounded-full bg-terracotta px-5 py-4 text-sm font-semibold text-white transition-transform active:scale-95"
                 >
                   Get a Quote
                 </Link>
-              </nav>
+              </div>
             </motion.div>
           </motion.div>
         )}
