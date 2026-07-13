@@ -9,7 +9,6 @@ import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 export default defineConfig({
   plugins: [
     tanstackStart(),
-    nitro({ preset: 'node-server' }),
     tailwindcss(),
     tsConfigPaths({ projects: ["./tsconfig.json"] }),
     viteReact(),
@@ -18,6 +17,14 @@ export default defineConfig({
       jpeg: { quality: 80 },
       jpg: { quality: 80 },
       webp: { lossless: true },
+    }),
+    nitro({ 
+      preset: 'node-server',
+      output: {
+        dir: './dist',
+        serverDir: './dist/server',
+        publicDir: './dist/public'
+      }
     }),
   ],
   resolve: {
