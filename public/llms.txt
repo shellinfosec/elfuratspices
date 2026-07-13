@@ -1,13 +1,16 @@
 # Elfurat Spices
+
 Elfurat Spices is a global exporter of premium Indian spices, aromatics, dry fruits, and pantry staples.
 
 ## Products
-- Indian Spices: Cumin, Coriander, Turmeric, Red Chilli, Black Pepper, Cardamom, Cloves, Cinnamon.
-- Aromatics: Saffron, Vanilla.
-- Dry Fruits: Cashews, Almonds, Pistachios, Raisins.
-- Pantry Staples: Rice, Pulses, Sugar, Salt.
+
+- [Indian Spices](https://elfuratspices.com/products/indian-spices): Cumin, Coriander, Turmeric, Red Chilli, Black Pepper, Cardamom, Cloves, Cinnamon.
+- [Aromatics](https://elfuratspices.com/products/aromatics): Saffron, Vanilla.
+- [Dry Fruits](https://elfuratspices.com/products/dry-fruits): Cashews, Almonds, Pistachios, Raisins.
+- [Pantry Staples](https://elfuratspices.com/products/pantry-staples): Rice, Pulses, Sugar, Salt.
 
 ## Contact
-Website: https://elfuratspices.com
-Export Inquiries: https://elfuratspices.com/export-inquiries
-Phone: +91-78382-63460
+
+- [Website](https://elfuratspices.com)
+- [Export Inquiries](https://elfuratspices.com/export-inquiries)
+- Phone: +91-78382-63460
