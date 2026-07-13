@@ -1,0 +1,4 @@
+# DO NOT REMOVE. GENERATED FOR PASSENGER NODE.JS
+PassengerAppType node
+PassengerStartupFile cpanel-start.cjs
+PassengerAppRoot /home/elfuratspices/public_html
