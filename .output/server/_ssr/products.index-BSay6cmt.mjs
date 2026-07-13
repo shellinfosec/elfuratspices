@@ -6,8 +6,8 @@ import { i as AnimatePresence, r as motion } from "../_libs/framer-motion.mjs";
 import { c as Search, i as SlidersHorizontal, t as X, w as Check } from "../_libs/lucide-react.mjs";
 import { n as PRODUCTS, t as CATEGORIES } from "./products-CJXz9X5J.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as ProductCard } from "./ProductCard-BW_abbz_.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/products.index-B5TzRsUE.js
+import { t as ProductCard } from "./ProductCard-Q47kmRh0.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/products.index-BSay6cmt.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ProductsIndex() {

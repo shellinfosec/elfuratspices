@@ -10,6 +10,7 @@ import { Reveal } from "@/components/site/Reveal";
 import { ProductCard } from "@/components/site/ProductCard";
 import { HeroParallax } from "@/components/site/HeroParallax";
 import { DragSlider } from "@/components/site/DragSlider";
+import { Image } from "@/components/ui/image";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -35,7 +36,7 @@ function Home() {
   return (
     <>
       {/* ============== HERO - Scroll-linked parallax ============== */}
-      <HeroParallax image={HERO_IMAGES.spicesHero} alt="Premium whole Indian spices arranged in brass bowls on textured artisan surface, saffron, cardamom, cloves, cinnamon, dramatic but elegant lighting, shallow depth of field, export-catalog quality">
+      <HeroParallax image={HERO_IMAGES.spicesHero} alt="Premium whole Indian spices arranged in brass bowls on textured artisan surface, saffron, cardamom, cloves, cinnamon, dramatic but elegant lighting, shallow depth of field, export-catalog quality" priority={true}>
         <div className="mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-6 pb-24 pt-40 lg:px-10 lg:pb-32">
 
           <motion.h1
@@ -129,7 +130,7 @@ function Home() {
         {/* BENTO */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-6 gap-4 md:gap-5">
           <Reveal className="md:col-span-4 md:row-span-2 relative overflow-hidden rounded-3xl bg-surface shadow-float card-lift min-h-[420px]">
-            <img src={HERO_IMAGES.farmSourcing} alt="Early morning Indian agricultural field with workers selecting fresh produce, cinematic horizon, warm sunlight, authenticity and traceability mood" className="absolute inset-0 h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-105" />
+            <Image src={HERO_IMAGES.farmSourcing} alt="Early morning Indian agricultural field with workers selecting fresh produce, cinematic horizon, warm sunlight, authenticity and traceability mood" className="absolute inset-0 h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-clove/95 via-clove/30 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-8">
               <span className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-3 py-1.5 text-[10px] uppercase tracking-widest text-white">
@@ -142,7 +143,7 @@ function Home() {
           </Reveal>
 
           <Reveal className="md:col-span-2 relative overflow-hidden rounded-3xl shadow-float card-lift min-h-[200px]" delay={80}>
-            <img src={HERO_IMAGES.processing} alt="Hygienic spice processing line with stainless-steel equipment, workers in clean uniforms, precision workflow" className="absolute inset-0 h-full w-full object-cover" />
+            <Image src={HERO_IMAGES.processing} alt="Hygienic spice processing line with stainless-steel equipment, workers in clean uniforms, precision workflow" className="absolute inset-0 h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-clove/90 to-clove/20" />
             <div className="absolute bottom-0 p-6">
               <div className="text-[10px] uppercase tracking-widest text-saffron mb-1">Processing</div>
@@ -151,7 +152,7 @@ function Home() {
           </Reveal>
 
           <Reveal className="md:col-span-2 relative overflow-hidden rounded-3xl shadow-float card-lift min-h-[200px]" delay={140}>
-            <img src={HERO_IMAGES.packaging} alt="Export-grade food packaging station with sealed pouches and lot coding visible, organized and clean" className="absolute inset-0 h-full w-full object-cover" />
+            <Image src={HERO_IMAGES.packaging} alt="Export-grade food packaging station with sealed pouches and lot coding visible, organized and clean" className="absolute inset-0 h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-clove/90 to-clove/20" />
             <div className="absolute bottom-0 p-6">
               <div className="text-[10px] uppercase tracking-widest text-saffron mb-1">Packaging</div>
@@ -160,7 +161,7 @@ function Home() {
           </Reveal>
 
           <Reveal className="md:col-span-3 relative overflow-hidden rounded-3xl shadow-float card-lift min-h-[240px]" delay={200}>
-            <img src={HERO_IMAGES.export} alt="Cargo containers at inland logistics yard, golden-hour light, global dispatch readiness" className="absolute inset-0 h-full w-full object-cover" />
+            <Image src={HERO_IMAGES.export} alt="Cargo containers at inland logistics yard, golden-hour light, global dispatch readiness" className="absolute inset-0 h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-clove/90 via-clove/30 to-transparent" />
             <div className="absolute bottom-0 p-8">
               <div className="text-[10px] uppercase tracking-widest text-saffron mb-1">Global Export</div>
@@ -205,7 +206,7 @@ function Home() {
                   className="card-lift group block overflow-hidden rounded-3xl bg-surface shadow-float h-full"
                 >
                   <div className="relative aspect-[4/3] overflow-hidden bg-[#f2ece4]">
-                    <img
+                    <Image
                       src={c.hero}
                       alt={c.name}
                       loading="lazy"
@@ -266,7 +267,7 @@ function Home() {
               HERO_IMAGES.turmericVisual, HERO_IMAGES.chilliVisual, HERO_IMAGES.corianderVisual, HERO_IMAGES.masalaVisual,
             ].map((src, i) => (
               <div key={i} className="relative overflow-hidden rounded-3xl aspect-[4/5] bg-muted shadow-float mr-3 md:mr-6 lg:mr-8">
-                <img src={src} alt="Elfurat product" loading="lazy" className="h-full w-full object-cover ease-elfurat transition-transform duration-[900ms] hover:scale-110" />
+                <Image src={src} alt="Elfurat product" loading="lazy" className="h-full w-full object-cover ease-elfurat transition-transform duration-[900ms] hover:scale-110" />
               </div>
             ))}
           />
@@ -285,7 +286,7 @@ function Home() {
           ].map((b, i) => (
             <Reveal key={b.title} delay={i * 100}>
               <Link to="/products/$category" params={{ category: b.to }} className="card-lift group relative block overflow-hidden rounded-3xl min-h-[420px]">
-                <img src={b.img} alt={b.title} loading="lazy" className="absolute inset-0 h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] group-hover:scale-110" />
+                <Image src={b.img} alt={b.title} loading="lazy" className="absolute inset-0 h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] group-hover:scale-110" />
                 <div className="absolute inset-0 bg-gradient-to-t from-clove via-clove/40 to-transparent" />
                 <div className="absolute inset-0 p-8 flex flex-col justify-end">
                   <h3 className="font-display text-3xl font-semibold text-white">{b.title}</h3>
@@ -314,7 +315,7 @@ function Home() {
           <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5">
             {[HERO_IMAGES.warehouse1, HERO_IMAGES.warehouse2, HERO_IMAGES.warehouse3].map((src, i) => (
               <Reveal key={src} delay={i * 100} className="relative overflow-hidden rounded-3xl aspect-[4/5]">
-                <img src={src} alt="Elfurat facility" loading="lazy" className="absolute inset-0 h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-110" />
+                <Image src={src} alt="Elfurat facility" loading="lazy" className="absolute inset-0 h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-110" />
               </Reveal>
             ))}
           </div>
@@ -345,9 +346,9 @@ function Home() {
         </div>
         <Marquee
           speed="slow"
-          items={CERTS.concat(CERTS).map((c) => (
-            <div className="flex items-center gap-3 rounded-full bg-white px-6 py-3 shadow-float">
-              <img src={c.src} alt={c.name} className="h-8 w-auto" />
+          items={CERTS.concat(CERTS).map((c, i) => (
+            <div key={i} className="flex items-center gap-3 rounded-full bg-white px-6 py-3 shadow-float">
+              <Image src={c.src} alt={c.name} className="h-8 w-auto" />
               <span className="font-display font-semibold text-clove">{c.name}</span>
             </div>
           ))}

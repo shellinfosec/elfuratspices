@@ -1,8 +1,9 @@
 import { i as HERO_IMAGES, r as CERTS } from "./brand-C151bFRS.mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
+import { t as Image } from "./image-CP_LfseE.mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
 import { r as motion } from "../_libs/framer-motion.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/about-Dt0_ftcy.js
+//#region node_modules/.nitro/vite/services/ssr/assets/about-CBekvhRo.js
 var import_jsx_runtime = require_jsx_runtime();
 var TIMELINE = [
 	{
@@ -78,9 +79,10 @@ function About() {
 					delay: 150,
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						className: "relative overflow-hidden rounded-3xl aspect-[4/5] shadow-deep",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 							src: HERO_IMAGES.farmSourcing,
 							alt: "Farm sourcing",
+							priority: true,
 							className: "h-full w-full object-cover ken-burns"
 						})
 					})
@@ -187,7 +189,7 @@ function About() {
 											},
 											className: "relative overflow-hidden rounded-3xl aspect-[4/3] shadow-deep border border-white/10",
 											children: [
-												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 													src: t.image,
 													alt: t.title,
 													loading: "lazy",
@@ -239,7 +241,7 @@ function About() {
 											},
 											className: "relative overflow-hidden rounded-3xl aspect-[4/3] shadow-deep border border-white/10",
 											children: [
-												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 													src: t.image,
 													alt: t.title,
 													loading: "lazy",
@@ -281,7 +283,7 @@ function About() {
 					HERO_IMAGES.export
 				].map((src, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "relative overflow-hidden rounded-3xl aspect-[4/5] shadow-float card-lift",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 						src,
 						alt: "Facility",
 						loading: "lazy",
@@ -308,7 +310,7 @@ function About() {
 					className: "mt-12 grid grid-cols-2 md:grid-cols-5 gap-5",
 					children: CERTS.map((c) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Reveal, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "rounded-3xl bg-white p-8 shadow-float card-lift flex flex-col items-center text-center gap-4",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 							src: c.src,
 							alt: c.name,
 							className: "h-16 w-auto object-contain"

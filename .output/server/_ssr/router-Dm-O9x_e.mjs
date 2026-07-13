@@ -2,21 +2,22 @@ import { o as __toESM } from "../_runtime.mjs";
 import { a as LOGOS, i as HERO_IMAGES, o as waUrl, r as CERTS, t as BRAND } from "./brand-C151bFRS.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
+import { t as Image } from "./image-CP_LfseE.mjs";
 import { i as AnimatePresence, n as useScroll, r as motion, t as useTransform } from "../_libs/framer-motion.mjs";
 import { C as ChevronDown, D as ArrowUp, h as Mail, l as Phone, m as MapPin, p as Menu, t as X } from "../_libs/lucide-react.mjs";
 import { n as PRODUCTS, t as CATEGORIES } from "./products-CJXz9X5J.mjs";
 import { _ as useRouter, c as HeadContent, d as createRouter, f as Outlet, g as Link, h as createRootRouteWithContext, l as useRouterState, m as createFileRoute, p as lazyRouteComponent, s as Scripts } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route$7 } from "./product._slug-C-PDs305.mjs";
-import { t as Route$8 } from "./products._category-B1UDZcx_.mjs";
+import { t as Route$7 } from "./product._slug-vXGl2xlO.mjs";
+import { t as Route$8 } from "./products._category-DxcMd7Ld.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as require_aos } from "../_libs/aos.mjs";
 import { t as Lenis } from "../_libs/lenis.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DgLuWFFD.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-Dm-O9x_e.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
-var styles_default = "/assets/styles-Cbq1e07N.css";
+var styles_default = "/assets/styles-Bvh-JT9s.css";
 var LINKS = [
 	{
 		to: "/",
@@ -100,7 +101,7 @@ function Nav() {
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 					to: "/",
 					className: "flex items-center gap-2 shrink-0",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion.img, {
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion.div, {
 						initial: { opacity: 0 },
 						animate: { opacity: 1 },
 						transition: {
@@ -112,10 +113,13 @@ function Nav() {
 								1
 							]
 						},
-						src: logoSrc,
-						alt: "Elfurat Spices",
 						className: "h-8 sm:h-9 w-auto",
-						loading: "eager"
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
+							src: logoSrc,
+							alt: "Elfurat Spices",
+							className: "h-full w-auto object-contain",
+							priority: true
+						})
 					}, logoSrc)
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", {
@@ -180,10 +184,10 @@ function Nav() {
 											className: "group flex items-center gap-3 rounded-2xl p-2.5 hover:bg-terracotta/10 transition-colors duration-300",
 											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 												className: "h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-muted",
-												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 													src: c.hero,
 													alt: c.name,
-													className: "h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+													className: "transition-transform duration-500 group-hover:scale-110"
 												})
 											}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 												className: "min-w-0",
@@ -249,10 +253,13 @@ function Nav() {
 				onClick: (e) => e.stopPropagation(),
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex items-center justify-between mb-8",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: LOGOS.color3x1,
-						alt: "Elfurat Spices",
-						className: "h-7 w-auto"
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "h-7 w-auto",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
+							src: LOGOS.color3x1,
+							alt: "Elfurat Spices",
+							className: "object-contain"
+						})
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 						onClick: () => setOpen(false),
 						className: "rounded-full bg-black/5 p-2 text-clove",
@@ -284,10 +291,13 @@ function Nav() {
 								to: "/products/$category",
 								params: { category: c.slug },
 								className: "flex items-center gap-3 rounded-2xl p-2 hover:bg-terracotta/10 transition-colors",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-									src: c.hero,
-									alt: c.name,
-									className: "h-10 w-10 shrink-0 rounded-xl object-cover"
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "h-10 w-10 shrink-0",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
+										src: c.hero,
+										alt: c.name,
+										className: "rounded-xl"
+									})
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 									className: "min-w-0",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
@@ -906,7 +916,7 @@ ${[
 		"Cache-Control": "public, max-age=3600"
 	} });
 } } } });
-var $$splitComponentImporter$4 = () => import("./export-inquiries-kSziv_QB.mjs");
+var $$splitComponentImporter$4 = () => import("./export-inquiries-BP-AFxwf.mjs");
 var Route$4 = createFileRoute("/export-inquiries")({
 	head: () => ({ meta: [
 		{ title: "Export Inquiries - B2B & Bulk Orders | Elfurat Spices" },
@@ -952,7 +962,7 @@ var Route$3 = createFileRoute("/contact")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./about-Dt0_ftcy.mjs");
+var $$splitComponentImporter$2 = () => import("./about-CBekvhRo.mjs");
 var Route$2 = createFileRoute("/about")({
 	head: () => ({ meta: [
 		{ title: "About Elfurat Spices - Global Indian Spice Exporter" },
@@ -975,7 +985,7 @@ var Route$2 = createFileRoute("/about")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./routes-7LdcwWis.mjs");
+var $$splitComponentImporter$1 = () => import("./routes-ortQ0FVw.mjs");
 var Route$1 = createFileRoute("/")({
 	head: () => ({ meta: [{ title: "Elfurat Spices - Premium Indian Spices, Globally Exported" }, {
 		name: "description",
@@ -983,7 +993,7 @@ var Route$1 = createFileRoute("/")({
 	}] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./products.index-B5TzRsUE.mjs");
+var $$splitComponentImporter = () => import("./products.index-BSay6cmt.mjs");
 var Route = createFileRoute("/products/")({
 	head: () => ({ meta: [
 		{ title: "Products - Complete Catalogue | Elfurat Spices" },

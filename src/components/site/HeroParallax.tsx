@@ -1,5 +1,6 @@
 import { useRef, type ReactNode } from "react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
+import { Image } from "@/components/ui/image";
 
 type Props = {
   image: string;
@@ -31,7 +32,7 @@ export function HeroParallax({ image, alt, children, className = "" }: Props) {
         style={{ y, scale, willChange: "transform" }}
         className="absolute inset-0"
       >
-        <img
+        <Image
           src={image}
           alt={alt}
           className="h-[115%] w-full object-cover"

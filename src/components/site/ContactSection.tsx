@@ -4,6 +4,7 @@ import { BRAND, waUrl, LOGOS } from "@/lib/brand";
 import { CATEGORIES } from "@/lib/products";
 import { Reveal } from "@/components/site/Reveal";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Image } from "@/components/ui/image";
 
 export function ContactSection() {
   const [form, setForm] = useState({
@@ -38,7 +39,7 @@ export function ContactSection() {
             <Reveal delay={200} className="mt-12 lg:mt-auto flex-1 flex flex-col justify-end items-center">
               {/* Image that dynamically stretches/fills the space left */}
               <div className="w-full flex items-center justify-center p-8 bg-white/50 rounded-3xl shadow-sm border border-black/5 h-full min-h-[200px]">
-                <img src={LOGOS.color3x1} alt="Elfurat Spices" className="w-full max-w-sm object-contain" />
+                <Image src={LOGOS.color3x1} alt="Elfurat Spices" className="w-full max-w-sm object-contain" />
               </div>
             </Reveal>
           </div>

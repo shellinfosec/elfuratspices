@@ -2,14 +2,15 @@ import { o as __toESM } from "../_runtime.mjs";
 import { a as LOGOS, o as waUrl, t as BRAND } from "./brand-C151bFRS.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
+import { t as Image } from "./image-CP_LfseE.mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
 import { r as motion } from "../_libs/framer-motion.mjs";
 import { A as ArrowLeft, T as BadgeCheck, _ as FlaskConical, a as Ship, l as Phone, o as ShieldCheck, r as Sprout, u as Package, y as CircleCheck } from "../_libs/lucide-react.mjs";
 import { a as productsByCategory } from "./products-CJXz9X5J.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route } from "./product._slug-C-PDs305.mjs";
-import { t as ProductCard } from "./ProductCard-BW_abbz_.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-V2jSeEAu.js
+import { t as Route } from "./product._slug-vXGl2xlO.mjs";
+import { t as ProductCard } from "./ProductCard-Q47kmRh0.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-B3l7UT3P.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ZoomImage({ src, alt, zoom = 2.2, className = "" }) {
@@ -35,7 +36,7 @@ function ZoomImage({ src, alt, zoom = 2.2, className = "" }) {
 		onMouseLeave: () => setActive(false),
 		onMouseMove: onMove,
 		className: `relative overflow-hidden rounded-3xl bg-[#f2ece4] cursor-zoom-in ${className}`,
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 			src,
 			alt,
 			loading: "eager",
@@ -43,7 +44,7 @@ function ZoomImage({ src, alt, zoom = 2.2, className = "" }) {
 				transformOrigin: `${pos.x}% ${pos.y}%`,
 				transform: active ? `scale(${zoom})` : "scale(1)"
 			},
-			className: "h-full w-full object-cover transition-transform duration-500 ease-out"
+			className: "transition-transform duration-500 ease-out"
 		}), active && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "pointer-events-none absolute top-4 right-4 rounded-full bg-white/85 backdrop-blur px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wider text-clove shadow-float",
 			children: "Move to zoom"

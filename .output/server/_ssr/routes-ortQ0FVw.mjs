@@ -2,15 +2,16 @@ import { o as __toESM } from "../_runtime.mjs";
 import { a as LOGOS, i as HERO_IMAGES, o as waUrl, r as CERTS, t as BRAND } from "./brand-C151bFRS.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
+import { t as Image } from "./image-CP_LfseE.mjs";
 import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
 import { n as useScroll, r as motion, t as useTransform } from "../_libs/framer-motion.mjs";
 import { E as Award, S as ChevronLeft, d as PackageCheck, g as Leaf, k as ArrowRight, n as Truck, s as Send, v as Earth, x as ChevronRight } from "../_libs/lucide-react.mjs";
 import { n as PRODUCTS, t as CATEGORIES } from "./products-CJXz9X5J.mjs";
-import { a as SelectValue, i as SelectTrigger, n as SelectContent, r as SelectItem, t as Select } from "./select-PcGYqjyA.mjs";
+import { a as SelectValue, i as SelectTrigger, n as SelectContent, r as SelectItem, t as Select } from "./select-Dg1urBTx.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as ProductCard } from "./ProductCard-BW_abbz_.mjs";
+import { t as ProductCard } from "./ProductCard-Q47kmRh0.mjs";
 import { t as useEmblaCarousel } from "../_libs/embla-carousel-react+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-7LdcwWis.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-ortQ0FVw.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function ContactSection() {
@@ -58,7 +59,7 @@ function ContactSection() {
 						className: "mt-12 lg:mt-auto flex-1 flex flex-col justify-end items-center",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "w-full flex items-center justify-center p-8 bg-white/50 rounded-3xl shadow-sm border border-black/5 h-full min-h-[200px]",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 								src: LOGOS.color3x1,
 								alt: "Elfurat Spices",
 								className: "w-full max-w-sm object-contain"
@@ -281,7 +282,7 @@ function HeroParallax({ image, alt, children, className = "" }) {
 					willChange: "transform"
 				},
 				className: "absolute inset-0",
-				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 					src: image,
 					alt,
 					className: "h-[115%] w-full object-cover",
@@ -390,6 +391,7 @@ function Home() {
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeroParallax, {
 			image: HERO_IMAGES.spicesHero,
 			alt: "Premium whole Indian spices arranged in brass bowls on textured artisan surface, saffron, cardamom, cloves, cinnamon, dramatic but elegant lighting, shallow depth of field, export-catalog quality",
+			priority: true,
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-6 pb-24 pt-40 lg:px-10 lg:pb-32",
 				children: [
@@ -541,7 +543,7 @@ function Home() {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Reveal, {
 						className: "md:col-span-4 md:row-span-2 relative overflow-hidden rounded-3xl bg-surface shadow-float card-lift min-h-[420px]",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 								src: HERO_IMAGES.farmSourcing,
 								alt: "Early morning Indian agricultural field with workers selecting fresh produce, cinematic horizon, warm sunlight, authenticity and traceability mood",
 								className: "absolute inset-0 h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-105"
@@ -563,7 +565,7 @@ function Home() {
 						className: "md:col-span-2 relative overflow-hidden rounded-3xl shadow-float card-lift min-h-[200px]",
 						delay: 80,
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 								src: HERO_IMAGES.processing,
 								alt: "Hygienic spice processing line with stainless-steel equipment, workers in clean uniforms, precision workflow",
 								className: "absolute inset-0 h-full w-full object-cover"
@@ -585,7 +587,7 @@ function Home() {
 						className: "md:col-span-2 relative overflow-hidden rounded-3xl shadow-float card-lift min-h-[200px]",
 						delay: 140,
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 								src: HERO_IMAGES.packaging,
 								alt: "Export-grade food packaging station with sealed pouches and lot coding visible, organized and clean",
 								className: "absolute inset-0 h-full w-full object-cover"
@@ -607,7 +609,7 @@ function Home() {
 						className: "md:col-span-3 relative overflow-hidden rounded-3xl shadow-float card-lift min-h-[240px]",
 						delay: 200,
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 								src: HERO_IMAGES.export,
 								alt: "Cargo containers at inland logistics yard, golden-hour light, global dispatch readiness",
 								className: "absolute inset-0 h-full w-full object-cover"
@@ -672,7 +674,7 @@ function Home() {
 							className: "card-lift group block overflow-hidden rounded-3xl bg-surface shadow-float h-full",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								className: "relative aspect-[4/3] overflow-hidden bg-[#f2ece4]",
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 									src: c.hero,
 									alt: c.name,
 									loading: "lazy",
@@ -740,7 +742,7 @@ function Home() {
 						HERO_IMAGES.masalaVisual
 					].map((src, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						className: "relative overflow-hidden rounded-3xl aspect-[4/5] bg-muted shadow-float mr-3 md:mr-6 lg:mr-8",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 							src,
 							alt: "Elfurat product",
 							loading: "lazy",
@@ -780,7 +782,7 @@ function Home() {
 						params: { category: b.to },
 						className: "card-lift group relative block overflow-hidden rounded-3xl min-h-[420px]",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 								src: b.img,
 								alt: b.title,
 								loading: "lazy",
@@ -833,7 +835,7 @@ function Home() {
 						].map((src, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Reveal, {
 							delay: i * 100,
 							className: "relative overflow-hidden rounded-3xl aspect-[4/5]",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 								src,
 								alt: "Elfurat facility",
 								loading: "lazy",
@@ -892,9 +894,9 @@ function Home() {
 				})
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Marquee, {
 				speed: "slow",
-				items: CERTS.concat(CERTS).map((c) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				items: CERTS.concat(CERTS).map((c, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex items-center gap-3 rounded-full bg-white px-6 py-3 shadow-float",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 						src: c.src,
 						alt: c.name,
 						className: "h-8 w-auto"
@@ -902,7 +904,7 @@ function Home() {
 						className: "font-display font-semibold text-clove",
 						children: c.name
 					})]
-				}))
+				}, i))
 			})]
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {

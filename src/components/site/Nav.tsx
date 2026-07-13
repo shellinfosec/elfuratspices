@@ -4,6 +4,7 @@ import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { LOGOS } from "@/lib/brand";
 import { CATEGORIES } from "@/lib/products";
+import { Image } from "@/components/ui/image";
 
 const LINKS = [
   { to: "/", label: "Home" },
@@ -73,16 +74,20 @@ export function Nav() {
         className="mx-auto flex items-center justify-between border px-4 sm:px-6 py-3 transition-[padding,max-width,border-radius] duration-500"
       >
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <motion.img
+          <motion.div
             key={logoSrc}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
-            src={logoSrc}
-            alt="Elfurat Spices"
             className="h-8 sm:h-9 w-auto"
-            loading="eager"
-          />
+          >
+            <Image
+              src={logoSrc}
+              alt="Elfurat Spices"
+              className="h-full w-auto object-contain"
+              priority={true}
+            />
+          </motion.div>
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">
@@ -135,7 +140,7 @@ export function Nav() {
                                 className="group flex items-center gap-3 rounded-2xl p-2.5 hover:bg-terracotta/10 transition-colors duration-300"
                               >
                                 <div className="h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-muted">
-                                  <img src={c.hero} alt={c.name} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                                  <Image src={c.hero} alt={c.name} className="transition-transform duration-500 group-hover:scale-110" />
                                 </div>
                                 <div className="min-w-0">
                                   <div className="font-display text-sm font-semibold text-clove group-hover:text-terracotta transition-colors truncate">
@@ -206,7 +211,7 @@ export function Nav() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between mb-8">
-                <img src={LOGOS.color3x1} alt="Elfurat Spices" className="h-7 w-auto" />
+                <div className="h-7 w-auto"><Image src={LOGOS.color3x1} alt="Elfurat Spices" className="object-contain" /></div>
                 <button
                   onClick={() => setOpen(false)}
                   className="rounded-full bg-black/5 p-2 text-clove"
@@ -243,7 +248,7 @@ export function Nav() {
                                     params={{ category: c.slug }}
                                     className="flex items-center gap-3 rounded-2xl p-2 hover:bg-terracotta/10 transition-colors"
                                   >
-                                    <img src={c.hero} alt={c.name} className="h-10 w-10 shrink-0 rounded-xl object-cover" />
+                                    <div className="h-10 w-10 shrink-0"><Image src={c.hero} alt={c.name} className="rounded-xl" /></div>
                                     <div className="min-w-0">
                                       <div className="text-sm font-semibold text-clove truncate">{c.name}</div>
                                       <div className="text-[10px] text-clove/60 truncate">{c.tagline}</div>

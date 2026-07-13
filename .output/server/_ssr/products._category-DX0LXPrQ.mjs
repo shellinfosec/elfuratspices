@@ -3,9 +3,9 @@ import { t as Reveal } from "./Reveal-CJqfK1fL.mjs";
 import { A as ArrowLeft } from "../_libs/lucide-react.mjs";
 import { a as productsByCategory, t as CATEGORIES } from "./products-CJXz9X5J.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as ProductCard } from "./ProductCard-BW_abbz_.mjs";
-import { t as Route } from "./products._category-B1UDZcx_.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/products._category-CdXFHFH6.js
+import { t as ProductCard } from "./ProductCard-Q47kmRh0.mjs";
+import { t as Route } from "./products._category-DxcMd7Ld.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/products._category-DX0LXPrQ.js
 var import_jsx_runtime = require_jsx_runtime();
 function CategoryPage() {
 	const { c } = Route.useLoaderData();

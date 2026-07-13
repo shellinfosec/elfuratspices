@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { CERTS, HERO_IMAGES } from "@/lib/brand";
 import { Reveal } from "@/components/site/Reveal";
+import { Image } from "@/components/ui/image";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -56,7 +57,7 @@ function About() {
           </div>
           <Reveal className="lg:col-span-5" delay={150}>
             <div className="relative overflow-hidden rounded-3xl aspect-[4/5] shadow-deep">
-              <img src={HERO_IMAGES.farmSourcing} alt="Farm sourcing" className="h-full w-full object-cover ken-burns" />
+              <Image src={HERO_IMAGES.farmSourcing} alt="Farm sourcing" priority={true} className="h-full w-full object-cover ken-burns" />
             </div>
           </Reveal>
         </div>
@@ -124,7 +125,7 @@ function About() {
                           transition={{ type: "spring", stiffness: 200, damping: 20 }}
                           className="relative overflow-hidden rounded-3xl aspect-[4/3] shadow-deep border border-white/10"
                         >
-                          <img src={t.image} alt={t.title} loading="lazy" className="h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-110" />
+                          <Image src={t.image} alt={t.title} loading="lazy" className="h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-110" />
                           <div className="absolute inset-0 bg-gradient-to-t from-clove/40 to-transparent" />
                           <div className="absolute top-4 left-4 h-10 w-10 grid place-items-center rounded-full bg-saffron text-clove font-display font-bold shadow-float">
                             {i + 1}
@@ -158,7 +159,7 @@ function About() {
                           transition={{ type: "spring", stiffness: 200, damping: 20 }}
                           className="relative overflow-hidden rounded-3xl aspect-[4/3] shadow-deep border border-white/10"
                         >
-                          <img src={t.image} alt={t.title} loading="lazy" className="h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-110" />
+                          <Image src={t.image} alt={t.title} loading="lazy" className="h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-110" />
                           <div className="absolute inset-0 bg-gradient-to-t from-clove/40 to-transparent" />
                           <div className="absolute top-4 right-4 h-10 w-10 grid place-items-center rounded-full bg-saffron text-clove font-display font-bold shadow-float">
                             {i + 1}
@@ -189,7 +190,7 @@ function About() {
           {[HERO_IMAGES.warehouse1, HERO_IMAGES.warehouse2, HERO_IMAGES.warehouse3, HERO_IMAGES.facility1, HERO_IMAGES.facility2, HERO_IMAGES.processing, HERO_IMAGES.packaging, HERO_IMAGES.export]
             .map((src, i) => (
               <div key={i} className="relative overflow-hidden rounded-3xl aspect-[4/5] shadow-float card-lift">
-                <img src={src} alt="Facility" loading="lazy" className="h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-110" />
+                <Image src={src} alt="Facility" loading="lazy" className="h-full w-full object-cover ease-elfurat transition-transform duration-[1200ms] hover:scale-110" />
               </div>
             ))}
         </div>
@@ -208,7 +209,7 @@ function About() {
             {CERTS.map((c) => (
               <Reveal key={c.name}>
                 <div className="rounded-3xl bg-white p-8 shadow-float card-lift flex flex-col items-center text-center gap-4">
-                  <img src={c.src} alt={c.name} className="h-16 w-auto object-contain" />
+                  <Image src={c.src} alt={c.name} className="h-16 w-auto object-contain" />
                   <div className="font-display font-semibold text-clove">{c.name}</div>
                 </div>
               </Reveal>

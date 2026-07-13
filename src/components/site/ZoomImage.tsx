@@ -1,4 +1,5 @@
 import { useRef, useState, type MouseEvent } from "react";
+import { Image } from "@/components/ui/image";
 
 type Props = {
   src: string;
@@ -28,7 +29,7 @@ export function ZoomImage({ src, alt, zoom = 2.2, className = "" }: Props) {
       onMouseMove={onMove}
       className={`relative overflow-hidden rounded-3xl bg-[#f2ece4] cursor-zoom-in ${className}`}
     >
-      <img
+      <Image
         src={src}
         alt={alt}
         loading="eager"
@@ -36,7 +37,7 @@ export function ZoomImage({ src, alt, zoom = 2.2, className = "" }: Props) {
           transformOrigin: `${pos.x}% ${pos.y}%`,
           transform: active ? `scale(${zoom})` : "scale(1)",
         }}
-        className="h-full w-full object-cover transition-transform duration-500 ease-out"
+        className="transition-transform duration-500 ease-out"
       />
       {active && (
         <div className="pointer-events-none absolute top-4 right-4 rounded-full bg-white/85 backdrop-blur px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wider text-clove shadow-float">

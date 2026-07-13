@@ -1,7 +1,8 @@
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-arrow+[...].mjs";
+import { t as Image } from "./image-CP_LfseE.mjs";
 import { O as ArrowUpRight } from "../_libs/lucide-react.mjs";
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/ProductCard-BW_abbz_.js
+//#region node_modules/.nitro/vite/services/ssr/assets/ProductCard-Q47kmRh0.js
 var import_jsx_runtime = require_jsx_runtime();
 function ProductCard({ p }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
@@ -10,11 +11,11 @@ function ProductCard({ p }) {
 		className: "card-lift group block overflow-hidden rounded-3xl bg-surface shadow-float",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "relative aspect-[4/5] overflow-hidden bg-[#f2ece4]",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, {
 				src: p.image,
 				alt: p.name,
 				loading: "lazy",
-				className: "h-full w-full object-cover ease-elfurat transition-transform duration-[900ms] group-hover:scale-[1.06]"
+				className: "ease-elfurat transition-transform duration-[900ms] group-hover:scale-[1.06]"
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 				className: "absolute top-3 left-3 rounded-full bg-white/85 backdrop-blur px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-clove",
 				children: p.form

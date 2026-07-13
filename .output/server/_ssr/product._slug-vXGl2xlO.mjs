@@ -1,7 +1,7 @@
 import { i as getProduct, r as getCategory } from "./products-CJXz9X5J.mjs";
 import { j as notFound, m as createFileRoute, p as lazyRouteComponent } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-C-PDs305.js
-var $$splitComponentImporter = () => import("./product._slug-V2jSeEAu.mjs");
+//#region node_modules/.nitro/vite/services/ssr/assets/product._slug-vXGl2xlO.js
+var $$splitComponentImporter = () => import("./product._slug-B3l7UT3P.mjs");
 var $$splitNotFoundComponentImporter = () => import("./product._slug-CeX7SBi0.mjs");
 var Route = createFileRoute("/product/$slug")({
 	loader: ({ params }) => {

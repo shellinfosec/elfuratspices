@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import type { Product } from "@/lib/products";
 import { ArrowUpRight } from "lucide-react";
+import { Image } from "@/components/ui/image";
 
 export function ProductCard({ p }: { p: Product }) {
   return (
@@ -10,11 +11,11 @@ export function ProductCard({ p }: { p: Product }) {
       className="card-lift group block overflow-hidden rounded-3xl bg-surface shadow-float"
     >
       <div className="relative aspect-[4/5] overflow-hidden bg-[#f2ece4]">
-        <img
+        <Image
           src={p.image}
           alt={p.name}
           loading="lazy"
-          className="h-full w-full object-cover ease-elfurat transition-transform duration-[900ms] group-hover:scale-[1.06]"
+          className="ease-elfurat transition-transform duration-[900ms] group-hover:scale-[1.06]"
         />
         <div className="absolute top-3 left-3 rounded-full bg-white/85 backdrop-blur px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-clove">
           {p.form}
