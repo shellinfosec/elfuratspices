@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/elfuratspices/public_html
+    - /bin/cp -R .output $DEPLOYPATH
+    - /bin/cp cpanel-start.cjs $DEPLOYPATH
