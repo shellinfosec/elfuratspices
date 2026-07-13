@@ -13,11 +13,11 @@ import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as require_aos } from "../_libs/aos.mjs";
 import { t as Lenis } from "../_libs/lenis.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DN2R2MWY.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-D4mXovrJ.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_aos = /* @__PURE__ */ __toESM(require_aos());
-var styles_default = "/assets/styles-B1LnBlM1.css";
+var styles_default = "/assets/styles-BkcFNEzC.css";
 var LINKS = [
 	{
 		to: "/",
@@ -600,8 +600,14 @@ function Preloader() {
 }
 function ScrollReset() {
 	(0, import_react.useEffect)(() => {
-		if (window.lenis) window.lenis.scrollTo(0, { immediate: true });
-		else window.scrollTo(0, 0);
+		setTimeout(() => {
+			if (window.lenis) window.lenis.scrollTo(0, { immediate: true });
+			else window.scrollTo({
+				top: 0,
+				left: 0,
+				behavior: "instant"
+			});
+		}, 10);
 	}, [useRouterState({ select: (s) => s.location.pathname })]);
 	return null;
 }

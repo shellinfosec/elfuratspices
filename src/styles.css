@@ -94,6 +94,7 @@
 }
 
 /* Prevent Radix UI from hiding the scrollbar and shifting layout */
+html body[data-scroll-locked],
 body[data-scroll-locked] {
   padding-right: 0 !important;
   margin-right: 0 !important;
